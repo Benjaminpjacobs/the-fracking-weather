@@ -23,12 +23,12 @@ And now you can see the fracking weather LOCALLY!
 
 ## Running the tests
 
-* `rake db:test:prepare` just incase
+* `rake db:test:prepare` just in case
 * `rspec`
 
 ## Deployment
 
-This app is live. You can find out the fracking weather [RIGHT HERE](http://the-fracking-weather.herokuapp.com/)
+This app is live. You can find out the fracking weather [RIGHT HERE](http://the-fracking-weather.herokuapp.com/)!
 
 ## Built With
 
