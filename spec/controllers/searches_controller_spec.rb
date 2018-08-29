@@ -161,7 +161,7 @@ RSpec.describe SearchesController do
         search = Search.last
         expect(response.body).to match(search.cached_weather['current_observation']['temp_f'].to_s)
         expect(response.body).to match(search.cached_weather['current_observation']['weather'])
-        expect(response.body).to match(search.cached_weather['current_observation']['display_location']['full'])
+        expect(response.body).to match("#{search.city}, #{search.state}")
       end
     end
     
@@ -175,7 +175,7 @@ RSpec.describe SearchesController do
         expect(HTTParty).to_not receive(:get)
         expect(response.body).to match(search.cached_weather['current_observation']['temp_f'].to_s)
         expect(response.body).to match(search.cached_weather['current_observation']['weather'])
-        expect(response.body).to match(search.cached_weather['current_observation']['display_location']['full'])
+        expect(response.body).to match("#{search.city}, #{search.state}")
       end
     end
       

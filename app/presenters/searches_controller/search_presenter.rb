@@ -13,7 +13,7 @@ class SearchesController::SearchPresenter
   end
 
   def location_name
-    @location_name ||= search.cached_weather['current_observation']['display_location']['full']
+    @location_name ||= "#{search.city}, #{search.state}"
   end
 
   def previous
