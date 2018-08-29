@@ -14,10 +14,10 @@
     <% @previous_searches.each do |search| %>
       <div class='search-row' id="<%=dom_id(search)%>">
         <div class='search-cell' id="<%=dom_id(search, :link)%>">
-          <%= link_to search.query, search_path(search) %>
+          <%= link_to search.location_name, search_path(search) %>
         </div>
         <div class='search-cell' id="<%=dom_id(search, :date)%>">
-          <%= search.updated_at.strftime("%m/%d/%y %I:%M %p") %>
+          <%= search.last_searched%>
         </div>
         <div class='search-cell' id="<%=dom_id(search, :count)%>"">
           <%= search.count %>

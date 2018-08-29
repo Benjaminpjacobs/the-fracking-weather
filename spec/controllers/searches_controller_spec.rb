@@ -18,38 +18,38 @@ RSpec.describe SearchesController do
         two_hours_ago = 2.hour.ago
         three_hours_ago = 2.hour.ago
         post :create, params: {search: {query: "Denver, CO"}}
-        s1 = Search.find_by(query: "Denver, CO")
+        s1 = Search.order(id: :asc).last
         s1.update_columns previous: [one_hour_ago.to_s,two_hours_ago.to_s]
         post :create, params: {search: {query: "San Diego, CA"}}
-        s2 = Search.find_by(query: "San Diego, CA")
+        s2 = Search.order(id: :asc).last
         s2.update_columns previous: [one_hour_ago.to_s, two_hours_ago.to_s, three_hours_ago.to_s]
         post :create, params: {search: {query: "Boston, MA"}}
-        s3 = Search.find_by(query: "Boston, MA")
+        s3 = Search.order(id: :asc).last
         s3.update_columns previous: [one_hour_ago.to_s]
         get :previous_searches, params: {sort_by: "count", sort_direction: "desc"}
         
         assert_select "#searches" do
           assert_select "div:nth-child(1)" do
-            assert_select "#link_search_#{s2.id}", "San Diego, CA"
+            assert_select "#link_search_#{s2.id}", s2.location_name
           end
           assert_select "div:nth-child(2)" do
-            assert_select "#link_search_#{s1.id}", "Denver, CO"
+            assert_select "#link_search_#{s1.id}", s1.location_name
           end
           assert_select "div:nth-child(3)" do
-            assert_select "#link_search_#{s3.id}", "Boston, MA"
+            assert_select "#link_search_#{s3.id}", s3.location_name
           end
         end
 
         get :previous_searches, params: {sort_by: "count", sort_direction: "asc"}
         assert_select "#searches" do
           assert_select "div:nth-child(1)" do
-            assert_select "#link_search_#{s3.id}", "Boston, MA"
+            assert_select "#link_search_#{s3.id}", s3.location_name
           end
           assert_select "div:nth-child(2)" do
-            assert_select "#link_search_#{s1.id}", "Denver, CO"
+            assert_select "#link_search_#{s1.id}", s1.location_name
           end
           assert_select "div:nth-child(3)" do
-            assert_select "#link_search_#{s2.id}", "San Diego, CA"
+            assert_select "#link_search_#{s2.id}", s2.location_name
           end
         end
         
@@ -57,13 +57,13 @@ RSpec.describe SearchesController do
 
         assert_select "#searches" do
           assert_select "div:nth-child(1)" do
-            assert_select "#link_search_#{s2.id}", "San Diego, CA"
+            assert_select "#link_search_#{s2.id}", s2.location_name
           end
           assert_select "div:nth-child(2)" do
-            assert_select "#link_search_#{s1.id}", "Denver, CO"
+            assert_select "#link_search_#{s1.id}", s1.location_name
           end
           assert_select "div:nth-child(3)" do
-            assert_select "#link_search_#{s3.id}", "Boston, MA"
+            assert_select "#link_search_#{s3.id}", s3.location_name
           end
         end
       end
@@ -72,24 +72,24 @@ RSpec.describe SearchesController do
   
   describe "GET show" do
     it "renders the show view as if searched" do
-      VCR.use_cassette("previous_searches") do
+      VCR.use_cassette("show_searches") do
         one_hour_ago = 1.hour.ago
         two_hours_ago = 2.hour.ago
         three_hours_ago = 2.hour.ago
         post :create, params: {search: {query: "Denver, CO"}}
-        s1 = Search.find_by(query: "Denver, CO")
+        s1 = Search.order(id: :asc).last
         s1.update_columns previous: [one_hour_ago.to_s,two_hours_ago.to_s]
         post :create, params: {search: {query: "San Diego, CA"}}
-        s2 = Search.find_by(query: "San Diego, CA")
+        s2 = Search.order(id: :asc).last
         s2.update_columns previous: [one_hour_ago.to_s, two_hours_ago.to_s, three_hours_ago.to_s]
         post :create, params: {search: {query: "Boston, MA"}}
-        s3 = Search.find_by(query: "Boston, MA")
+        s3 = Search.order(id: :asc).last
         s3.update_columns previous: [one_hour_ago.to_s]
         get :show, params: {id: s3.id}
 
         expect(response.body).to match(s3.cached_weather['current_observation']['temp_f'].to_s)
         expect(response.body).to match(s3.cached_weather['current_observation']['weather'])
-        expect(response.body).to match(s3.cached_weather['current_observation']['display_location']['full'])
+        expect(response.body).to match(s3.location_name)
 
         assert_select "div.times" do
           expect(response.body).to match(one_hour_ago.strftime("%I:%M %p"))
@@ -97,13 +97,13 @@ RSpec.describe SearchesController do
         end
 
         assert_select "#search_#{s1.id}" do
-          assert_select "#link_search_#{s1.id}", "Denver, CO"
+          assert_select "#link_search_#{s1.id}", s1.location_name
         end
         assert_select "#search_#{s2.id}" do
-          assert_select "#link_search_#{s2.id}", "San Diego, CA"
+          assert_select "#link_search_#{s2.id}", s2.location_name
         end
         assert_select "#search_#{s3.id}" do
-          assert_select "#link_search_#{s3.id}", "Boston, MA"
+          assert_select "#link_search_#{s3.id}", s3.location_name
         end
       end
     end
@@ -156,7 +156,7 @@ RSpec.describe SearchesController do
     end
 
     it "retrieves weather from search if not cached" do
-      VCR.use_cassette("weather") do
+      VCR.use_cassette("retrieve_weather") do
         post :create, params: {search: {query: "Denver"}}
         search = Search.last
         expect(response.body).to match(search.cached_weather['current_observation']['temp_f'].to_s)
@@ -166,7 +166,7 @@ RSpec.describe SearchesController do
     end
     
     it "retrieves weather from cache if cached weather" do
-      VCR.use_cassette("geocode_repeat") do
+      VCR.use_cassette("cached_weather") do
         s = Search.create(query: 'Denver')
         s.update(cached_weather: {current_observation: {temp_f: 100.0, weather: "Sunny", display_location: {full: "Somewhere"}}})
 
@@ -201,33 +201,33 @@ RSpec.describe SearchesController do
     end
 
     it "displays times of previous query searches" do
-      VCR.use_cassette("previous_searches") do
+      VCR.use_cassette("display_times") do
         one_hour_ago = 1.hour.ago
         two_hours_ago = 2.hour.ago
         three_hours_ago = 2.hour.ago
         post :create, params: {search: {query: "Denver, CO"}}
-        s1 = Search.find_by(query: "Denver, CO")
+        s1 = Search.order(id: :asc).last
         s1.update_columns previous: [one_hour_ago.to_s,two_hours_ago.to_s]
         post :create, params: {search: {query: "San Diego, CA"}}
-        s2 = Search.find_by(query: "San Diego, CA")
+        s2 = Search.order(id: :asc).last
         s2.update_columns previous: [one_hour_ago.to_s, two_hours_ago.to_s, three_hours_ago.to_s]
         post :create, params: {search: {query: "Boston, MA"}}
-        s3 = Search.find_by(query: "Boston, MA")
+        s3 = Search.order(id: :asc).last
         s3.update_columns previous: [one_hour_ago.to_s]
         post :create, params: {search: {query: "Boston, MA"}}
 
         search = Search.last
         assert_select "#search_#{s1.id}" do
           assert_select "#count_search_#{s1.id}", '2'
-          assert_select "#link_search_#{s1.id}", "Denver, CO"
+          assert_select "#link_search_#{s1.id}", s1.location_name
         end
         assert_select "#search_#{s2.id}" do
           assert_select "#count_search_#{s2.id}", '3'
-          assert_select "#link_search_#{s2.id}", "San Diego, CA"
+          assert_select "#link_search_#{s2.id}", s2.location_name
         end
         assert_select "#search_#{s3.id}" do
           assert_select "#count_search_#{s3.id}", '2'
-          assert_select "#link_search_#{s3.id}", "Boston, MA"
+          assert_select "#link_search_#{s3.id}", s3.location_name
         end
       end
     end

@@ -20,4 +20,12 @@ class Search < ApplicationRecord
     self.previous << self.updated_at.to_s
     self.save
   end
+
+  def location_name
+    "#{self.city}, #{self.state}"
+  end
+
+  def last_searched
+    self.updated_at.strftime("%m/%d/%y %I:%M %p")
+  end
 end

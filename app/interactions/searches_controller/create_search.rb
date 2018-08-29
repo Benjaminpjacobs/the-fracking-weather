@@ -35,14 +35,15 @@ class SearchesController::CreateSearch
   end
 
   def set_current_search
-    coordinates            = @results.first.coordinates
-    @current_search        = Search.find_by(query_params)
-    @current_search      ||= Search.near(coordinates, 5).first
-    @current_search      ||= Search.create(query_params) 
+    query             = query_params[:query].downcase
+    coordinates       = @results.first.coordinates
+    @current_search   = Search.find_by(query: query)
+    @current_search ||= Search.near(coordinates, 5).first
+    @current_search ||= Search.create(query: query) 
   end
 
   def validate_results
-    @results = Geocoder.search(query_params[:query])
+    @results = Geocoder.search(query_params[:query].downcase)
 
     unless @results.any?
       @error = "Fracking Try Again!"

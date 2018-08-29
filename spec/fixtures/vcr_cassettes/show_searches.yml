@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 29 Aug 2018 13:55:14 GMT
+      - Wed, 29 Aug 2018 13:55:28 GMT
       Server:
       - Apache/2.4.29 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -43,7 +43,7 @@ http_interactions:
       string: !binary |-
         W3sicGxhY2VfaWQiOiIxOTgyMzA0NjYiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6InJlbGF0aW9uIiwib3NtX2lkIjoiMjUzNzUwIiwiYm91bmRpbmdib3giOlsiMzkuNjE0MzE1NCIsIjM5LjkxNDIwODciLCItMTA1LjEwOTg4NDUiLCItMTA0LjU5OTY4ODkiXSwibGF0IjoiMzkuNzM5MTQyOCIsImxvbiI6Ii0xMDQuOTg0Njk2IiwiZGlzcGxheV9uYW1lIjoiRGVudmVyLCBEZW52ZXIgQ291bnR5LCBDb2xvcmFkbywgVVNBIiwiY2xhc3MiOiJwbGFjZSIsInR5cGUiOiJjaXR5IiwiaW1wb3J0YW5jZSI6MC44NTQ5MTQ2MzMxMTIyNzMsImljb24iOiJodHRwczpcL1wvbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnXC9pbWFnZXNcL21hcGljb25zXC9wb2lfcGxhY2VfY2l0eS5wLjIwLnBuZyIsImFkZHJlc3MiOnsiY2l0eSI6IkRlbnZlciIsImNvdW50eSI6IkRlbnZlciBDb3VudHkiLCJzdGF0ZSI6IkNvbG9yYWRvIiwiY291bnRyeSI6IlVTQSIsImNvdW50cnlfY29kZSI6InVzIn19LHsicGxhY2VfaWQiOiIxOTg5MDE1MjMiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6InJlbGF0aW9uIiwib3NtX2lkIjoiMTQxMTMzOSIsImJvdW5kaW5nYm94IjpbIjM5LjYxNDMxNTQiLCIzOS45MTQyMDg3IiwiLTEwNS4xMDk4ODQ1IiwiLTEwNC41OTk2ODg5Il0sImxhdCI6IjM5LjczNDgzODEiLCJsb24iOiItMTA0Ljk2NTMyNzEiLCJkaXNwbGF5X25hbWUiOiJEZW52ZXIgQ291bnR5LCBDb2xvcmFkbywgVVNBIiwiY2xhc3MiOiJib3VuZGFyeSIsInR5cGUiOiJhZG1pbmlzdHJhdGl2ZSIsImltcG9ydGFuY2UiOjAuODU0OTE0NjMzMTEyMjczLCJpY29uIjoiaHR0cHM6XC9cL25vbWluYXRpbS5vcGVuc3RyZWV0bWFwLm9yZ1wvaW1hZ2VzXC9tYXBpY29uc1wvcG9pX2JvdW5kYXJ5X2FkbWluaXN0cmF0aXZlLnAuMjAucG5nIiwiYWRkcmVzcyI6eyJjb3VudHkiOiJEZW52ZXIgQ291bnR5Iiwic3RhdGUiOiJDb2xvcmFkbyIsImNvdW50cnkiOiJVU0EiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9fSx7InBsYWNlX2lkIjoiNzA1NDczNzYiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6IndheSIsIm9zbV9pZCI6Ijc2OTA3MTYiLCJib3VuZGluZ2JveCI6WyIzOC42NzI5NCIsIjM4LjY3Mzc3NTgiLCItMTA0LjcwMzM5MTciLCItMTA0LjcwMjc2NyJdLCJsYXQiOiIzOC42NzI5NCIsImxvbiI6Ii0xMDQuNzAyNzY3IiwiZGlzcGxheV9uYW1lIjoiRGVudmVyLCBGb3VudGFpbiwgRWwgUGFzbyBDb3VudHksIENvbG9yYWRvLCA4MDE3LCBVU0EiLCJjbGFzcyI6ImhpZ2h3YXkiLCJ0eXBlIjoic2VydmljZSIsImltcG9ydGFuY2UiOjAuMjc1LCJhZGRyZXNzIjp7InJvYWQiOiJEZW52ZXIiLCJjaXR5IjoiRm91bnRhaW4iLCJjb3VudHkiOiJFbCBQYXNvIENvdW50eSIsInN0YXRlIjoiQ29sb3JhZG8iLCJwb3N0Y29kZSI6IjgwMTciLCJjb3VudHJ5IjoiVVNBIiwiY291bnRyeV9jb2RlIjoidXMifX0seyJwbGFjZV9pZCI6IjE3NDgxOTI3IiwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczpcL1wvb3NtLm9yZ1wvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJub2RlIiwib3NtX2lkIjoiMTY0OTg2OTM3MiIsImJvdW5kaW5nYm94IjpbIjUuMzQyNzk3NSIsIjUuMzQyODk3NSIsIi03Mi4zOTYwMzQ5IiwiLTcyLjM5NTkzNDkiXSwibGF0IjoiNS4zNDI4NDc1IiwibG9uIjoiLTcyLjM5NTk4NDkiLCJkaXNwbGF5X25hbWUiOiJEZW52ZXIsIENhbGxlIDE2LCBZb3BhbCwgQ2FzYW5hcmUsIDg1MDAwMSwgQ29sb21iaWEiLCJjbGFzcyI6InRvdXJpc20iLCJ0eXBlIjoiaG90ZWwiLCJpbXBvcnRhbmNlIjowLjIwMSwiaWNvbiI6Imh0dHBzOlwvXC9ub21pbmF0aW0ub3BlbnN0cmVldG1hcC5vcmdcL2ltYWdlc1wvbWFwaWNvbnNcL2FjY29tbW9kYXRpb25faG90ZWwyLnAuMjAucG5nIiwiYWRkcmVzcyI6eyJob3RlbCI6IkRlbnZlciIsInJvYWQiOiJDYWxsZSAxNiIsImNpdHkiOiJZb3BhbCIsInN0YXRlIjoiQ2FzYW5hcmUiLCJwb3N0Y29kZSI6Ijg1MDAwMSIsImNvdW50cnkiOiJDb2xvbWJpYSIsImNvdW50cnlfY29kZSI6ImNvIn19XQ==
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:15 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:28 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=denver,%20co
@@ -63,7 +63,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 29 Aug 2018 13:55:15 GMT
+      - Wed, 29 Aug 2018 13:55:29 GMT
       Server:
       - Apache/2.4.29 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -87,7 +87,7 @@ http_interactions:
       string: !binary |-
         W3sicGxhY2VfaWQiOiIxOTgyMzA0NjYiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6InJlbGF0aW9uIiwib3NtX2lkIjoiMjUzNzUwIiwiYm91bmRpbmdib3giOlsiMzkuNjE0MzE1NCIsIjM5LjkxNDIwODciLCItMTA1LjEwOTg4NDUiLCItMTA0LjU5OTY4ODkiXSwibGF0IjoiMzkuNzM5MTQyOCIsImxvbiI6Ii0xMDQuOTg0Njk2IiwiZGlzcGxheV9uYW1lIjoiRGVudmVyLCBEZW52ZXIgQ291bnR5LCBDb2xvcmFkbywgVVNBIiwiY2xhc3MiOiJwbGFjZSIsInR5cGUiOiJjaXR5IiwiaW1wb3J0YW5jZSI6MC44NTQ5MTQ2MzMxMTIyNzMsImljb24iOiJodHRwczpcL1wvbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnXC9pbWFnZXNcL21hcGljb25zXC9wb2lfcGxhY2VfY2l0eS5wLjIwLnBuZyIsImFkZHJlc3MiOnsiY2l0eSI6IkRlbnZlciIsImNvdW50eSI6IkRlbnZlciBDb3VudHkiLCJzdGF0ZSI6IkNvbG9yYWRvIiwiY291bnRyeSI6IlVTQSIsImNvdW50cnlfY29kZSI6InVzIn19LHsicGxhY2VfaWQiOiIxOTg5MDE1MjMiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6InJlbGF0aW9uIiwib3NtX2lkIjoiMTQxMTMzOSIsImJvdW5kaW5nYm94IjpbIjM5LjYxNDMxNTQiLCIzOS45MTQyMDg3IiwiLTEwNS4xMDk4ODQ1IiwiLTEwNC41OTk2ODg5Il0sImxhdCI6IjM5LjczNDgzODEiLCJsb24iOiItMTA0Ljk2NTMyNzEiLCJkaXNwbGF5X25hbWUiOiJEZW52ZXIgQ291bnR5LCBDb2xvcmFkbywgVVNBIiwiY2xhc3MiOiJib3VuZGFyeSIsInR5cGUiOiJhZG1pbmlzdHJhdGl2ZSIsImltcG9ydGFuY2UiOjAuODU0OTE0NjMzMTEyMjczLCJpY29uIjoiaHR0cHM6XC9cL25vbWluYXRpbS5vcGVuc3RyZWV0bWFwLm9yZ1wvaW1hZ2VzXC9tYXBpY29uc1wvcG9pX2JvdW5kYXJ5X2FkbWluaXN0cmF0aXZlLnAuMjAucG5nIiwiYWRkcmVzcyI6eyJjb3VudHkiOiJEZW52ZXIgQ291bnR5Iiwic3RhdGUiOiJDb2xvcmFkbyIsImNvdW50cnkiOiJVU0EiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9fSx7InBsYWNlX2lkIjoiNzA1NDczNzYiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6IndheSIsIm9zbV9pZCI6Ijc2OTA3MTYiLCJib3VuZGluZ2JveCI6WyIzOC42NzI5NCIsIjM4LjY3Mzc3NTgiLCItMTA0LjcwMzM5MTciLCItMTA0LjcwMjc2NyJdLCJsYXQiOiIzOC42NzI5NCIsImxvbiI6Ii0xMDQuNzAyNzY3IiwiZGlzcGxheV9uYW1lIjoiRGVudmVyLCBGb3VudGFpbiwgRWwgUGFzbyBDb3VudHksIENvbG9yYWRvLCA4MDE3LCBVU0EiLCJjbGFzcyI6ImhpZ2h3YXkiLCJ0eXBlIjoic2VydmljZSIsImltcG9ydGFuY2UiOjAuMjc1LCJhZGRyZXNzIjp7InJvYWQiOiJEZW52ZXIiLCJjaXR5IjoiRm91bnRhaW4iLCJjb3VudHkiOiJFbCBQYXNvIENvdW50eSIsInN0YXRlIjoiQ29sb3JhZG8iLCJwb3N0Y29kZSI6IjgwMTciLCJjb3VudHJ5IjoiVVNBIiwiY291bnRyeV9jb2RlIjoidXMifX0seyJwbGFjZV9pZCI6IjE3NDgxOTI3IiwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczpcL1wvb3NtLm9yZ1wvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJub2RlIiwib3NtX2lkIjoiMTY0OTg2OTM3MiIsImJvdW5kaW5nYm94IjpbIjUuMzQyNzk3NSIsIjUuMzQyODk3NSIsIi03Mi4zOTYwMzQ5IiwiLTcyLjM5NTkzNDkiXSwibGF0IjoiNS4zNDI4NDc1IiwibG9uIjoiLTcyLjM5NTk4NDkiLCJkaXNwbGF5X25hbWUiOiJEZW52ZXIsIENhbGxlIDE2LCBZb3BhbCwgQ2FzYW5hcmUsIDg1MDAwMSwgQ29sb21iaWEiLCJjbGFzcyI6InRvdXJpc20iLCJ0eXBlIjoiaG90ZWwiLCJpbXBvcnRhbmNlIjowLjIwMSwiaWNvbiI6Imh0dHBzOlwvXC9ub21pbmF0aW0ub3BlbnN0cmVldG1hcC5vcmdcL2ltYWdlc1wvbWFwaWNvbnNcL2FjY29tbW9kYXRpb25faG90ZWwyLnAuMjAucG5nIiwiYWRkcmVzcyI6eyJob3RlbCI6IkRlbnZlciIsInJvYWQiOiJDYWxsZSAxNiIsImNpdHkiOiJZb3BhbCIsInN0YXRlIjoiQ2FzYW5hcmUiLCJwb3N0Y29kZSI6Ijg1MDAwMSIsImNvdW50cnkiOiJDb2xvbWJpYSIsImNvdW50cnlfY29kZSI6ImNvIn19XQ==
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:15 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:29 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/reverse?accept-language=en&addressdetails=1&format=json&lat=39.7391428&lon=-104.984696
@@ -107,7 +107,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 29 Aug 2018 13:55:16 GMT
+      - Wed, 29 Aug 2018 13:55:29 GMT
       Server:
       - Apache/2.4.29 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -131,7 +131,7 @@ http_interactions:
       string: !binary |-
         eyJwbGFjZV9pZCI6Ijg0Nzc5NzEzIiwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczpcL1wvb3NtLm9yZ1wvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJ3YXkiLCJvc21faWQiOiIzNDAwODA0MyIsImxhdCI6IjM5LjczOTIxMTUiLCJsb24iOiItMTA0Ljk4NDg0Njc0NTI5OCIsImRpc3BsYXlfbmFtZSI6IlN0YXRlIENhcGl0b2wgQnVpbGRpbmcsIDIwMCwgRWFzdCBDb2xmYXggQXZlbnVlLCBDaXZpYyBDZW50ZXIsIERlbnZlciwgRGVudmVyIENvdW50eSwgQ29sb3JhZG8sIDgwMjAzLCBVU0EiLCJhZGRyZXNzIjp7ImJ1aWxkaW5nIjoiU3RhdGUgQ2FwaXRvbCBCdWlsZGluZyIsImhvdXNlX251bWJlciI6IjIwMCIsInJvYWQiOiJFYXN0IENvbGZheCBBdmVudWUiLCJuZWlnaGJvdXJob29kIjoiQ2l2aWMgQ2VudGVyIiwiY2l0eSI6IkRlbnZlciIsImNvdW50eSI6IkRlbnZlciBDb3VudHkiLCJzdGF0ZSI6IkNvbG9yYWRvIiwicG9zdGNvZGUiOiI4MDIwMyIsImNvdW50cnkiOiJVU0EiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9LCJib3VuZGluZ2JveCI6WyIzOS43Mzg2NzI3IiwiMzkuNzM5ODAyMSIsIi0xMDQuOTg1NDE5NCIsIi0xMDQuOTg0Mjc0MiJdfQ==
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:16 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:29 GMT
 - request:
     method: get
     uri: http://api.wunderground.com/api/219e5c357c3ed2dd/conditions/q/39.7391428,-104.984696.json
@@ -154,26 +154,26 @@ http_interactions:
       - 'true'
       Access-Control-Allow-Origin:
       - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
       Last-Modified:
-      - Wed, 29 Aug 2018 13:53:08 GMT
+      - Wed, 29 Aug 2018 13:54:14 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       X-Creationtime:
-      - '0.091'
+      - '0.125'
       X-Varnish:
-      - 3481054698 3480853555
-      Content-Type:
-      - application/json; charset=UTF-8
+      - 1281459448 1281383567
       Vary:
       - Accept-Encoding
       Expires:
-      - Wed, 29 Aug 2018 13:55:16 GMT
+      - Wed, 29 Aug 2018 13:55:30 GMT
       Cache-Control:
       - max-age=0, no-cache
       Pragma:
       - no-cache
       Date:
-      - Wed, 29 Aug 2018 13:55:16 GMT
+      - Wed, 29 Aug 2018 13:55:30 GMT
       Content-Length:
       - '2513'
       Connection:
@@ -196,7 +196,7 @@ http_interactions:
         in ( 0 mm)\",\n\t\t\"precip_1hr_in\":\"0.00\",\n\t\t\"precip_1hr_metric\":\"
         0\",\n\t\t\"precip_today_string\":\"0.00 in (0 mm)\",\n\t\t\"precip_today_in\":\"0.00\",\n\t\t\"precip_today_metric\":\"0\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"forecast_url\":\"http://www.wunderground.com/US/CO/Denver.html\",\n\t\t\"history_url\":\"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCODENVE218\",\n\t\t\"ob_url\":\"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=39.734711,-104.977921\",\n\t\t\"nowcast\":\"\"\n\t}\n}\n"
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:16 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:30 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=denver,%20co
@@ -216,7 +216,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 29 Aug 2018 13:55:17 GMT
+      - Wed, 29 Aug 2018 13:55:30 GMT
       Server:
       - Apache/2.4.29 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -240,7 +240,7 @@ http_interactions:
       string: !binary |-
         W3sicGxhY2VfaWQiOiIxOTgyMzA0NjYiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6InJlbGF0aW9uIiwib3NtX2lkIjoiMjUzNzUwIiwiYm91bmRpbmdib3giOlsiMzkuNjE0MzE1NCIsIjM5LjkxNDIwODciLCItMTA1LjEwOTg4NDUiLCItMTA0LjU5OTY4ODkiXSwibGF0IjoiMzkuNzM5MTQyOCIsImxvbiI6Ii0xMDQuOTg0Njk2IiwiZGlzcGxheV9uYW1lIjoiRGVudmVyLCBEZW52ZXIgQ291bnR5LCBDb2xvcmFkbywgVVNBIiwiY2xhc3MiOiJwbGFjZSIsInR5cGUiOiJjaXR5IiwiaW1wb3J0YW5jZSI6MC44NTQ5MTQ2MzMxMTIyNzMsImljb24iOiJodHRwczpcL1wvbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnXC9pbWFnZXNcL21hcGljb25zXC9wb2lfcGxhY2VfY2l0eS5wLjIwLnBuZyIsImFkZHJlc3MiOnsiY2l0eSI6IkRlbnZlciIsImNvdW50eSI6IkRlbnZlciBDb3VudHkiLCJzdGF0ZSI6IkNvbG9yYWRvIiwiY291bnRyeSI6IlVTQSIsImNvdW50cnlfY29kZSI6InVzIn19LHsicGxhY2VfaWQiOiIxOTg5MDE1MjMiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6InJlbGF0aW9uIiwib3NtX2lkIjoiMTQxMTMzOSIsImJvdW5kaW5nYm94IjpbIjM5LjYxNDMxNTQiLCIzOS45MTQyMDg3IiwiLTEwNS4xMDk4ODQ1IiwiLTEwNC41OTk2ODg5Il0sImxhdCI6IjM5LjczNDgzODEiLCJsb24iOiItMTA0Ljk2NTMyNzEiLCJkaXNwbGF5X25hbWUiOiJEZW52ZXIgQ291bnR5LCBDb2xvcmFkbywgVVNBIiwiY2xhc3MiOiJib3VuZGFyeSIsInR5cGUiOiJhZG1pbmlzdHJhdGl2ZSIsImltcG9ydGFuY2UiOjAuODU0OTE0NjMzMTEyMjczLCJpY29uIjoiaHR0cHM6XC9cL25vbWluYXRpbS5vcGVuc3RyZWV0bWFwLm9yZ1wvaW1hZ2VzXC9tYXBpY29uc1wvcG9pX2JvdW5kYXJ5X2FkbWluaXN0cmF0aXZlLnAuMjAucG5nIiwiYWRkcmVzcyI6eyJjb3VudHkiOiJEZW52ZXIgQ291bnR5Iiwic3RhdGUiOiJDb2xvcmFkbyIsImNvdW50cnkiOiJVU0EiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9fSx7InBsYWNlX2lkIjoiNzA1NDczNzYiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6IndheSIsIm9zbV9pZCI6Ijc2OTA3MTYiLCJib3VuZGluZ2JveCI6WyIzOC42NzI5NCIsIjM4LjY3Mzc3NTgiLCItMTA0LjcwMzM5MTciLCItMTA0LjcwMjc2NyJdLCJsYXQiOiIzOC42NzI5NCIsImxvbiI6Ii0xMDQuNzAyNzY3IiwiZGlzcGxheV9uYW1lIjoiRGVudmVyLCBGb3VudGFpbiwgRWwgUGFzbyBDb3VudHksIENvbG9yYWRvLCA4MDE3LCBVU0EiLCJjbGFzcyI6ImhpZ2h3YXkiLCJ0eXBlIjoic2VydmljZSIsImltcG9ydGFuY2UiOjAuMjc1LCJhZGRyZXNzIjp7InJvYWQiOiJEZW52ZXIiLCJjaXR5IjoiRm91bnRhaW4iLCJjb3VudHkiOiJFbCBQYXNvIENvdW50eSIsInN0YXRlIjoiQ29sb3JhZG8iLCJwb3N0Y29kZSI6IjgwMTciLCJjb3VudHJ5IjoiVVNBIiwiY291bnRyeV9jb2RlIjoidXMifX0seyJwbGFjZV9pZCI6IjE3NDgxOTI3IiwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczpcL1wvb3NtLm9yZ1wvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJub2RlIiwib3NtX2lkIjoiMTY0OTg2OTM3MiIsImJvdW5kaW5nYm94IjpbIjUuMzQyNzk3NSIsIjUuMzQyODk3NSIsIi03Mi4zOTYwMzQ5IiwiLTcyLjM5NTkzNDkiXSwibGF0IjoiNS4zNDI4NDc1IiwibG9uIjoiLTcyLjM5NTk4NDkiLCJkaXNwbGF5X25hbWUiOiJEZW52ZXIsIENhbGxlIDE2LCBZb3BhbCwgQ2FzYW5hcmUsIDg1MDAwMSwgQ29sb21iaWEiLCJjbGFzcyI6InRvdXJpc20iLCJ0eXBlIjoiaG90ZWwiLCJpbXBvcnRhbmNlIjowLjIwMSwiaWNvbiI6Imh0dHBzOlwvXC9ub21pbmF0aW0ub3BlbnN0cmVldG1hcC5vcmdcL2ltYWdlc1wvbWFwaWNvbnNcL2FjY29tbW9kYXRpb25faG90ZWwyLnAuMjAucG5nIiwiYWRkcmVzcyI6eyJob3RlbCI6IkRlbnZlciIsInJvYWQiOiJDYWxsZSAxNiIsImNpdHkiOiJZb3BhbCIsInN0YXRlIjoiQ2FzYW5hcmUiLCJwb3N0Y29kZSI6Ijg1MDAwMSIsImNvdW50cnkiOiJDb2xvbWJpYSIsImNvdW50cnlfY29kZSI6ImNvIn19XQ==
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:17 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:30 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/reverse?accept-language=en&addressdetails=1&format=json&lat=39.7391428&lon=-104.984696
@@ -260,7 +260,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 29 Aug 2018 13:55:17 GMT
+      - Wed, 29 Aug 2018 13:55:31 GMT
       Server:
       - Apache/2.4.29 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -284,7 +284,7 @@ http_interactions:
       string: !binary |-
         eyJwbGFjZV9pZCI6Ijg0Nzc5NzEzIiwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczpcL1wvb3NtLm9yZ1wvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJ3YXkiLCJvc21faWQiOiIzNDAwODA0MyIsImxhdCI6IjM5LjczOTIxMTUiLCJsb24iOiItMTA0Ljk4NDg0Njc0NTI5OCIsImRpc3BsYXlfbmFtZSI6IlN0YXRlIENhcGl0b2wgQnVpbGRpbmcsIDIwMCwgRWFzdCBDb2xmYXggQXZlbnVlLCBDaXZpYyBDZW50ZXIsIERlbnZlciwgRGVudmVyIENvdW50eSwgQ29sb3JhZG8sIDgwMjAzLCBVU0EiLCJhZGRyZXNzIjp7ImJ1aWxkaW5nIjoiU3RhdGUgQ2FwaXRvbCBCdWlsZGluZyIsImhvdXNlX251bWJlciI6IjIwMCIsInJvYWQiOiJFYXN0IENvbGZheCBBdmVudWUiLCJuZWlnaGJvdXJob29kIjoiQ2l2aWMgQ2VudGVyIiwiY2l0eSI6IkRlbnZlciIsImNvdW50eSI6IkRlbnZlciBDb3VudHkiLCJzdGF0ZSI6IkNvbG9yYWRvIiwicG9zdGNvZGUiOiI4MDIwMyIsImNvdW50cnkiOiJVU0EiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9LCJib3VuZGluZ2JveCI6WyIzOS43Mzg2NzI3IiwiMzkuNzM5ODAyMSIsIi0xMDQuOTg1NDE5NCIsIi0xMDQuOTg0Mjc0MiJdfQ==
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:17 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:31 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=denver,%20co
@@ -304,7 +304,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 29 Aug 2018 13:55:18 GMT
+      - Wed, 29 Aug 2018 13:55:31 GMT
       Server:
       - Apache/2.4.29 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -328,7 +328,7 @@ http_interactions:
       string: !binary |-
         W3sicGxhY2VfaWQiOiIxOTgyMzA0NjYiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6InJlbGF0aW9uIiwib3NtX2lkIjoiMjUzNzUwIiwiYm91bmRpbmdib3giOlsiMzkuNjE0MzE1NCIsIjM5LjkxNDIwODciLCItMTA1LjEwOTg4NDUiLCItMTA0LjU5OTY4ODkiXSwibGF0IjoiMzkuNzM5MTQyOCIsImxvbiI6Ii0xMDQuOTg0Njk2IiwiZGlzcGxheV9uYW1lIjoiRGVudmVyLCBEZW52ZXIgQ291bnR5LCBDb2xvcmFkbywgVVNBIiwiY2xhc3MiOiJwbGFjZSIsInR5cGUiOiJjaXR5IiwiaW1wb3J0YW5jZSI6MC44NTQ5MTQ2MzMxMTIyNzMsImljb24iOiJodHRwczpcL1wvbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnXC9pbWFnZXNcL21hcGljb25zXC9wb2lfcGxhY2VfY2l0eS5wLjIwLnBuZyIsImFkZHJlc3MiOnsiY2l0eSI6IkRlbnZlciIsImNvdW50eSI6IkRlbnZlciBDb3VudHkiLCJzdGF0ZSI6IkNvbG9yYWRvIiwiY291bnRyeSI6IlVTQSIsImNvdW50cnlfY29kZSI6InVzIn19LHsicGxhY2VfaWQiOiIxOTg5MDE1MjMiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6InJlbGF0aW9uIiwib3NtX2lkIjoiMTQxMTMzOSIsImJvdW5kaW5nYm94IjpbIjM5LjYxNDMxNTQiLCIzOS45MTQyMDg3IiwiLTEwNS4xMDk4ODQ1IiwiLTEwNC41OTk2ODg5Il0sImxhdCI6IjM5LjczNDgzODEiLCJsb24iOiItMTA0Ljk2NTMyNzEiLCJkaXNwbGF5X25hbWUiOiJEZW52ZXIgQ291bnR5LCBDb2xvcmFkbywgVVNBIiwiY2xhc3MiOiJib3VuZGFyeSIsInR5cGUiOiJhZG1pbmlzdHJhdGl2ZSIsImltcG9ydGFuY2UiOjAuODU0OTE0NjMzMTEyMjczLCJpY29uIjoiaHR0cHM6XC9cL25vbWluYXRpbS5vcGVuc3RyZWV0bWFwLm9yZ1wvaW1hZ2VzXC9tYXBpY29uc1wvcG9pX2JvdW5kYXJ5X2FkbWluaXN0cmF0aXZlLnAuMjAucG5nIiwiYWRkcmVzcyI6eyJjb3VudHkiOiJEZW52ZXIgQ291bnR5Iiwic3RhdGUiOiJDb2xvcmFkbyIsImNvdW50cnkiOiJVU0EiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9fSx7InBsYWNlX2lkIjoiNzA1NDczNzYiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6IndheSIsIm9zbV9pZCI6Ijc2OTA3MTYiLCJib3VuZGluZ2JveCI6WyIzOC42NzI5NCIsIjM4LjY3Mzc3NTgiLCItMTA0LjcwMzM5MTciLCItMTA0LjcwMjc2NyJdLCJsYXQiOiIzOC42NzI5NCIsImxvbiI6Ii0xMDQuNzAyNzY3IiwiZGlzcGxheV9uYW1lIjoiRGVudmVyLCBGb3VudGFpbiwgRWwgUGFzbyBDb3VudHksIENvbG9yYWRvLCA4MDE3LCBVU0EiLCJjbGFzcyI6ImhpZ2h3YXkiLCJ0eXBlIjoic2VydmljZSIsImltcG9ydGFuY2UiOjAuMjc1LCJhZGRyZXNzIjp7InJvYWQiOiJEZW52ZXIiLCJjaXR5IjoiRm91bnRhaW4iLCJjb3VudHkiOiJFbCBQYXNvIENvdW50eSIsInN0YXRlIjoiQ29sb3JhZG8iLCJwb3N0Y29kZSI6IjgwMTciLCJjb3VudHJ5IjoiVVNBIiwiY291bnRyeV9jb2RlIjoidXMifX0seyJwbGFjZV9pZCI6IjE3NDgxOTI3IiwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczpcL1wvb3NtLm9yZ1wvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJub2RlIiwib3NtX2lkIjoiMTY0OTg2OTM3MiIsImJvdW5kaW5nYm94IjpbIjUuMzQyNzk3NSIsIjUuMzQyODk3NSIsIi03Mi4zOTYwMzQ5IiwiLTcyLjM5NTkzNDkiXSwibGF0IjoiNS4zNDI4NDc1IiwibG9uIjoiLTcyLjM5NTk4NDkiLCJkaXNwbGF5X25hbWUiOiJEZW52ZXIsIENhbGxlIDE2LCBZb3BhbCwgQ2FzYW5hcmUsIDg1MDAwMSwgQ29sb21iaWEiLCJjbGFzcyI6InRvdXJpc20iLCJ0eXBlIjoiaG90ZWwiLCJpbXBvcnRhbmNlIjowLjIwMSwiaWNvbiI6Imh0dHBzOlwvXC9ub21pbmF0aW0ub3BlbnN0cmVldG1hcC5vcmdcL2ltYWdlc1wvbWFwaWNvbnNcL2FjY29tbW9kYXRpb25faG90ZWwyLnAuMjAucG5nIiwiYWRkcmVzcyI6eyJob3RlbCI6IkRlbnZlciIsInJvYWQiOiJDYWxsZSAxNiIsImNpdHkiOiJZb3BhbCIsInN0YXRlIjoiQ2FzYW5hcmUiLCJwb3N0Y29kZSI6Ijg1MDAwMSIsImNvdW50cnkiOiJDb2xvbWJpYSIsImNvdW50cnlfY29kZSI6ImNvIn19XQ==
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:18 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:31 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/reverse?accept-language=en&addressdetails=1&format=json&lat=39.7391428&lon=-104.984696
@@ -348,7 +348,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 29 Aug 2018 13:55:19 GMT
+      - Wed, 29 Aug 2018 13:55:32 GMT
       Server:
       - Apache/2.4.29 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -372,7 +372,7 @@ http_interactions:
       string: !binary |-
         eyJwbGFjZV9pZCI6Ijg0Nzc5NzEzIiwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczpcL1wvb3NtLm9yZ1wvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJ3YXkiLCJvc21faWQiOiIzNDAwODA0MyIsImxhdCI6IjM5LjczOTIxMTUiLCJsb24iOiItMTA0Ljk4NDg0Njc0NTI5OCIsImRpc3BsYXlfbmFtZSI6IlN0YXRlIENhcGl0b2wgQnVpbGRpbmcsIDIwMCwgRWFzdCBDb2xmYXggQXZlbnVlLCBDaXZpYyBDZW50ZXIsIERlbnZlciwgRGVudmVyIENvdW50eSwgQ29sb3JhZG8sIDgwMjAzLCBVU0EiLCJhZGRyZXNzIjp7ImJ1aWxkaW5nIjoiU3RhdGUgQ2FwaXRvbCBCdWlsZGluZyIsImhvdXNlX251bWJlciI6IjIwMCIsInJvYWQiOiJFYXN0IENvbGZheCBBdmVudWUiLCJuZWlnaGJvdXJob29kIjoiQ2l2aWMgQ2VudGVyIiwiY2l0eSI6IkRlbnZlciIsImNvdW50eSI6IkRlbnZlciBDb3VudHkiLCJzdGF0ZSI6IkNvbG9yYWRvIiwicG9zdGNvZGUiOiI4MDIwMyIsImNvdW50cnkiOiJVU0EiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9LCJib3VuZGluZ2JveCI6WyIzOS43Mzg2NzI3IiwiMzkuNzM5ODAyMSIsIi0xMDQuOTg1NDE5NCIsIi0xMDQuOTg0Mjc0MiJdfQ==
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:19 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:32 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=san%20diego,%20ca
@@ -392,7 +392,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 29 Aug 2018 13:55:19 GMT
+      - Wed, 29 Aug 2018 13:55:33 GMT
       Server:
       - Apache/2.4.29 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -416,7 +416,7 @@ http_interactions:
       string: !binary |-
         W3sicGxhY2VfaWQiOiIxOTc3MzcwODkiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6InJlbGF0aW9uIiwib3NtX2lkIjoiMjUzODMyIiwiYm91bmRpbmdib3giOlsiMzIuNTM0NzgzOSIsIjMzLjExNDI0OSIsIi0xMTcuMzA5ODA1MyIsIi0xMTYuOTA1NzIyNiJdLCJsYXQiOiIzMi43MTc0MjA5IiwibG9uIjoiLTExNy4xNjI3NzE0IiwiZGlzcGxheV9uYW1lIjoiU2FuIERpZWdvLCBTYW4gRGllZ28gQ291bnR5LCBDYWxpZm9ybmlhLCBVU0EiLCJjbGFzcyI6InBsYWNlIiwidHlwZSI6ImNpdHkiLCJpbXBvcnRhbmNlIjowLjkzMzQyMzA5NjgxMTE3NTEsImljb24iOiJodHRwczpcL1wvbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnXC9pbWFnZXNcL21hcGljb25zXC9wb2lfcGxhY2VfY2l0eS5wLjIwLnBuZyIsImFkZHJlc3MiOnsiY2l0eSI6IlNhbiBEaWVnbyIsImNvdW50eSI6IlNhbiBEaWVnbyBDb3VudHkiLCJzdGF0ZSI6IkNhbGlmb3JuaWEiLCJjb3VudHJ5IjoiVVNBIiwiY291bnRyeV9jb2RlIjoidXMifX0seyJwbGFjZV9pZCI6IjE5ODA5NTg1MyIsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6XC9cL29zbS5vcmdcL2NvcHlyaWdodCIsIm9zbV90eXBlIjoicmVsYXRpb24iLCJvc21faWQiOiIzOTY0ODIiLCJib3VuZGluZ2JveCI6WyIzMi41Mjk1MjM2IiwiMzMuNTA1Mjk3MyIsIi0xMTcuNjExMDgxIiwiLTExNi4wODEwMjk5Il0sImxhdCI6IjMyLjk2Mzc4MzgiLCJsb24iOiItMTE2Ljc3MDYyNzciLCJkaXNwbGF5X25hbWUiOiJTYW4gRGllZ28gQ291bnR5LCBDYWxpZm9ybmlhLCBVU0EiLCJjbGFzcyI6ImJvdW5kYXJ5IiwidHlwZSI6ImFkbWluaXN0cmF0aXZlIiwiaW1wb3J0YW5jZSI6MC44NTE0MzQxMjc5NjQ5NDMsImljb24iOiJodHRwczpcL1wvbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnXC9pbWFnZXNcL21hcGljb25zXC9wb2lfYm91bmRhcnlfYWRtaW5pc3RyYXRpdmUucC4yMC5wbmciLCJhZGRyZXNzIjp7ImNvdW50eSI6IlNhbiBEaWVnbyBDb3VudHkiLCJzdGF0ZSI6IkNhbGlmb3JuaWEiLCJjb3VudHJ5IjoiVVNBIiwiY291bnRyeV9jb2RlIjoidXMifX1d
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:19 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:33 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=san%20diego,%20ca
@@ -436,7 +436,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 29 Aug 2018 13:55:20 GMT
+      - Wed, 29 Aug 2018 13:55:33 GMT
       Server:
       - Apache/2.4.29 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -460,7 +460,7 @@ http_interactions:
       string: !binary |-
         W3sicGxhY2VfaWQiOiIxOTc3MzcwODkiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6InJlbGF0aW9uIiwib3NtX2lkIjoiMjUzODMyIiwiYm91bmRpbmdib3giOlsiMzIuNTM0NzgzOSIsIjMzLjExNDI0OSIsIi0xMTcuMzA5ODA1MyIsIi0xMTYuOTA1NzIyNiJdLCJsYXQiOiIzMi43MTc0MjA5IiwibG9uIjoiLTExNy4xNjI3NzE0IiwiZGlzcGxheV9uYW1lIjoiU2FuIERpZWdvLCBTYW4gRGllZ28gQ291bnR5LCBDYWxpZm9ybmlhLCBVU0EiLCJjbGFzcyI6InBsYWNlIiwidHlwZSI6ImNpdHkiLCJpbXBvcnRhbmNlIjowLjkzMzQyMzA5NjgxMTE3NTEsImljb24iOiJodHRwczpcL1wvbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnXC9pbWFnZXNcL21hcGljb25zXC9wb2lfcGxhY2VfY2l0eS5wLjIwLnBuZyIsImFkZHJlc3MiOnsiY2l0eSI6IlNhbiBEaWVnbyIsImNvdW50eSI6IlNhbiBEaWVnbyBDb3VudHkiLCJzdGF0ZSI6IkNhbGlmb3JuaWEiLCJjb3VudHJ5IjoiVVNBIiwiY291bnRyeV9jb2RlIjoidXMifX0seyJwbGFjZV9pZCI6IjE5ODA5NTg1MyIsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6XC9cL29zbS5vcmdcL2NvcHlyaWdodCIsIm9zbV90eXBlIjoicmVsYXRpb24iLCJvc21faWQiOiIzOTY0ODIiLCJib3VuZGluZ2JveCI6WyIzMi41Mjk1MjM2IiwiMzMuNTA1Mjk3MyIsIi0xMTcuNjExMDgxIiwiLTExNi4wODEwMjk5Il0sImxhdCI6IjMyLjk2Mzc4MzgiLCJsb24iOiItMTE2Ljc3MDYyNzciLCJkaXNwbGF5X25hbWUiOiJTYW4gRGllZ28gQ291bnR5LCBDYWxpZm9ybmlhLCBVU0EiLCJjbGFzcyI6ImJvdW5kYXJ5IiwidHlwZSI6ImFkbWluaXN0cmF0aXZlIiwiaW1wb3J0YW5jZSI6MC44NTE0MzQxMjc5NjQ5NDMsImljb24iOiJodHRwczpcL1wvbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnXC9pbWFnZXNcL21hcGljb25zXC9wb2lfYm91bmRhcnlfYWRtaW5pc3RyYXRpdmUucC4yMC5wbmciLCJhZGRyZXNzIjp7ImNvdW50eSI6IlNhbiBEaWVnbyBDb3VudHkiLCJzdGF0ZSI6IkNhbGlmb3JuaWEiLCJjb3VudHJ5IjoiVVNBIiwiY291bnRyeV9jb2RlIjoidXMifX1d
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:20 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:33 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/reverse?accept-language=en&addressdetails=1&format=json&lat=32.7174209&lon=-117.1627714
@@ -480,7 +480,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 29 Aug 2018 13:55:20 GMT
+      - Wed, 29 Aug 2018 13:55:34 GMT
       Server:
       - Apache/2.4.29 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -504,7 +504,7 @@ http_interactions:
       string: !binary |-
         eyJwbGFjZV9pZCI6IjExODYwMTU3OSIsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6XC9cL29zbS5vcmdcL2NvcHlyaWdodCIsIm9zbV90eXBlIjoid2F5Iiwib3NtX2lkIjoiMTg0NzA4MzQwIiwibGF0IjoiMzIuNzE3NDAyOSIsImxvbiI6Ii0xMTcuMTYyOTA4ODczNDMiLCJkaXNwbGF5X25hbWUiOiJKdWFuIFJvZHJpZ3VleiBDYWJyaWxsbydzIGRpc2NvdmVyeSBvZiBTYW4gRGllZ28gYmF5IGluIDE1NDIsIENpdmljIENlbnRlciBQbGF6YSwgVXB0b3duLCBTYW4gRGllZ28sIFNhbiBEaWVnbyBDb3VudHksIENhbGlmb3JuaWEsIDkyMTAxLTYxNDQsIFVTQSIsImFkZHJlc3MiOnsiYXJ0d29yayI6Ikp1YW4gUm9kcmlndWV6IENhYnJpbGxvJ3MgZGlzY292ZXJ5IG9mIFNhbiBEaWVnbyBiYXkgaW4gMTU0MiIsInBlZGVzdHJpYW4iOiJDaXZpYyBDZW50ZXIgUGxhemEiLCJzdWJ1cmIiOiJVcHRvd24iLCJjaXR5IjoiU2FuIERpZWdvIiwiY291bnR5IjoiU2FuIERpZWdvIENvdW50eSIsInN0YXRlIjoiQ2FsaWZvcm5pYSIsInBvc3Rjb2RlIjoiOTIxMDEtNjE0NCIsImNvdW50cnkiOiJVU0EiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9LCJib3VuZGluZ2JveCI6WyIzMi43MTczMzc5IiwiMzIuNzE3NDU3NiIsIi0xMTcuMTYyOTc5OSIsIi0xMTcuMTYyODM4NiJdfQ==
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:20 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:34 GMT
 - request:
     method: get
     uri: http://api.wunderground.com/api/219e5c357c3ed2dd/conditions/q/32.7174209,-117.1627714.json
@@ -540,13 +540,13 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Expires:
-      - Wed, 29 Aug 2018 13:55:21 GMT
+      - Wed, 29 Aug 2018 13:55:34 GMT
       Cache-Control:
       - max-age=0, no-cache
       Pragma:
       - no-cache
       Date:
-      - Wed, 29 Aug 2018 13:55:21 GMT
+      - Wed, 29 Aug 2018 13:55:34 GMT
       Content-Length:
       - '2588'
       Connection:
@@ -570,7 +570,7 @@ http_interactions:
         in ( 0 mm)\",\n\t\t\"precip_1hr_in\":\"0.00\",\n\t\t\"precip_1hr_metric\":\"
         0\",\n\t\t\"precip_today_string\":\"0.00 in (0 mm)\",\n\t\t\"precip_today_in\":\"0.00\",\n\t\t\"precip_today_metric\":\"0\",\n\t\t\"icon\":\"mostlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif\",\n\t\t\"forecast_url\":\"http://www.wunderground.com/US/CA/San_Diego.html\",\n\t\t\"history_url\":\"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCASANDI4511\",\n\t\t\"ob_url\":\"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=32.710270,-117.162132\",\n\t\t\"nowcast\":\"\"\n\t}\n}\n"
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:21 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:34 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=san%20diego,%20ca
@@ -590,7 +590,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 29 Aug 2018 13:55:21 GMT
+      - Wed, 29 Aug 2018 13:55:34 GMT
       Server:
       - Apache/2.4.29 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -614,7 +614,7 @@ http_interactions:
       string: !binary |-
         W3sicGxhY2VfaWQiOiIxOTc3MzcwODkiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6InJlbGF0aW9uIiwib3NtX2lkIjoiMjUzODMyIiwiYm91bmRpbmdib3giOlsiMzIuNTM0NzgzOSIsIjMzLjExNDI0OSIsIi0xMTcuMzA5ODA1MyIsIi0xMTYuOTA1NzIyNiJdLCJsYXQiOiIzMi43MTc0MjA5IiwibG9uIjoiLTExNy4xNjI3NzE0IiwiZGlzcGxheV9uYW1lIjoiU2FuIERpZWdvLCBTYW4gRGllZ28gQ291bnR5LCBDYWxpZm9ybmlhLCBVU0EiLCJjbGFzcyI6InBsYWNlIiwidHlwZSI6ImNpdHkiLCJpbXBvcnRhbmNlIjowLjkzMzQyMzA5NjgxMTE3NTEsImljb24iOiJodHRwczpcL1wvbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnXC9pbWFnZXNcL21hcGljb25zXC9wb2lfcGxhY2VfY2l0eS5wLjIwLnBuZyIsImFkZHJlc3MiOnsiY2l0eSI6IlNhbiBEaWVnbyIsImNvdW50eSI6IlNhbiBEaWVnbyBDb3VudHkiLCJzdGF0ZSI6IkNhbGlmb3JuaWEiLCJjb3VudHJ5IjoiVVNBIiwiY291bnRyeV9jb2RlIjoidXMifX0seyJwbGFjZV9pZCI6IjE5ODA5NTg1MyIsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6XC9cL29zbS5vcmdcL2NvcHlyaWdodCIsIm9zbV90eXBlIjoicmVsYXRpb24iLCJvc21faWQiOiIzOTY0ODIiLCJib3VuZGluZ2JveCI6WyIzMi41Mjk1MjM2IiwiMzMuNTA1Mjk3MyIsIi0xMTcuNjExMDgxIiwiLTExNi4wODEwMjk5Il0sImxhdCI6IjMyLjk2Mzc4MzgiLCJsb24iOiItMTE2Ljc3MDYyNzciLCJkaXNwbGF5X25hbWUiOiJTYW4gRGllZ28gQ291bnR5LCBDYWxpZm9ybmlhLCBVU0EiLCJjbGFzcyI6ImJvdW5kYXJ5IiwidHlwZSI6ImFkbWluaXN0cmF0aXZlIiwiaW1wb3J0YW5jZSI6MC44NTE0MzQxMjc5NjQ5NDMsImljb24iOiJodHRwczpcL1wvbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnXC9pbWFnZXNcL21hcGljb25zXC9wb2lfYm91bmRhcnlfYWRtaW5pc3RyYXRpdmUucC4yMC5wbmciLCJhZGRyZXNzIjp7ImNvdW50eSI6IlNhbiBEaWVnbyBDb3VudHkiLCJzdGF0ZSI6IkNhbGlmb3JuaWEiLCJjb3VudHJ5IjoiVVNBIiwiY291bnRyeV9jb2RlIjoidXMifX1d
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:21 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:35 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/reverse?accept-language=en&addressdetails=1&format=json&lat=32.7174209&lon=-117.1627714
@@ -634,7 +634,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 29 Aug 2018 13:55:22 GMT
+      - Wed, 29 Aug 2018 13:55:35 GMT
       Server:
       - Apache/2.4.29 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -658,7 +658,7 @@ http_interactions:
       string: !binary |-
         eyJwbGFjZV9pZCI6IjExODYwMTU3OSIsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6XC9cL29zbS5vcmdcL2NvcHlyaWdodCIsIm9zbV90eXBlIjoid2F5Iiwib3NtX2lkIjoiMTg0NzA4MzQwIiwibGF0IjoiMzIuNzE3NDAyOSIsImxvbiI6Ii0xMTcuMTYyOTA4ODczNDMiLCJkaXNwbGF5X25hbWUiOiJKdWFuIFJvZHJpZ3VleiBDYWJyaWxsbydzIGRpc2NvdmVyeSBvZiBTYW4gRGllZ28gYmF5IGluIDE1NDIsIENpdmljIENlbnRlciBQbGF6YSwgVXB0b3duLCBTYW4gRGllZ28sIFNhbiBEaWVnbyBDb3VudHksIENhbGlmb3JuaWEsIDkyMTAxLTYxNDQsIFVTQSIsImFkZHJlc3MiOnsiYXJ0d29yayI6Ikp1YW4gUm9kcmlndWV6IENhYnJpbGxvJ3MgZGlzY292ZXJ5IG9mIFNhbiBEaWVnbyBiYXkgaW4gMTU0MiIsInBlZGVzdHJpYW4iOiJDaXZpYyBDZW50ZXIgUGxhemEiLCJzdWJ1cmIiOiJVcHRvd24iLCJjaXR5IjoiU2FuIERpZWdvIiwiY291bnR5IjoiU2FuIERpZWdvIENvdW50eSIsInN0YXRlIjoiQ2FsaWZvcm5pYSIsInBvc3Rjb2RlIjoiOTIxMDEtNjE0NCIsImNvdW50cnkiOiJVU0EiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9LCJib3VuZGluZ2JveCI6WyIzMi43MTczMzc5IiwiMzIuNzE3NDU3NiIsIi0xMTcuMTYyOTc5OSIsIi0xMTcuMTYyODM4NiJdfQ==
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:22 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:35 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=san%20diego,%20ca
@@ -678,7 +678,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 29 Aug 2018 13:55:22 GMT
+      - Wed, 29 Aug 2018 13:55:36 GMT
       Server:
       - Apache/2.4.29 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -702,7 +702,7 @@ http_interactions:
       string: !binary |-
         W3sicGxhY2VfaWQiOiIxOTc3MzcwODkiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6InJlbGF0aW9uIiwib3NtX2lkIjoiMjUzODMyIiwiYm91bmRpbmdib3giOlsiMzIuNTM0NzgzOSIsIjMzLjExNDI0OSIsIi0xMTcuMzA5ODA1MyIsIi0xMTYuOTA1NzIyNiJdLCJsYXQiOiIzMi43MTc0MjA5IiwibG9uIjoiLTExNy4xNjI3NzE0IiwiZGlzcGxheV9uYW1lIjoiU2FuIERpZWdvLCBTYW4gRGllZ28gQ291bnR5LCBDYWxpZm9ybmlhLCBVU0EiLCJjbGFzcyI6InBsYWNlIiwidHlwZSI6ImNpdHkiLCJpbXBvcnRhbmNlIjowLjkzMzQyMzA5NjgxMTE3NTEsImljb24iOiJodHRwczpcL1wvbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnXC9pbWFnZXNcL21hcGljb25zXC9wb2lfcGxhY2VfY2l0eS5wLjIwLnBuZyIsImFkZHJlc3MiOnsiY2l0eSI6IlNhbiBEaWVnbyIsImNvdW50eSI6IlNhbiBEaWVnbyBDb3VudHkiLCJzdGF0ZSI6IkNhbGlmb3JuaWEiLCJjb3VudHJ5IjoiVVNBIiwiY291bnRyeV9jb2RlIjoidXMifX0seyJwbGFjZV9pZCI6IjE5ODA5NTg1MyIsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6XC9cL29zbS5vcmdcL2NvcHlyaWdodCIsIm9zbV90eXBlIjoicmVsYXRpb24iLCJvc21faWQiOiIzOTY0ODIiLCJib3VuZGluZ2JveCI6WyIzMi41Mjk1MjM2IiwiMzMuNTA1Mjk3MyIsIi0xMTcuNjExMDgxIiwiLTExNi4wODEwMjk5Il0sImxhdCI6IjMyLjk2Mzc4MzgiLCJsb24iOiItMTE2Ljc3MDYyNzciLCJkaXNwbGF5X25hbWUiOiJTYW4gRGllZ28gQ291bnR5LCBDYWxpZm9ybmlhLCBVU0EiLCJjbGFzcyI6ImJvdW5kYXJ5IiwidHlwZSI6ImFkbWluaXN0cmF0aXZlIiwiaW1wb3J0YW5jZSI6MC44NTE0MzQxMjc5NjQ5NDMsImljb24iOiJodHRwczpcL1wvbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnXC9pbWFnZXNcL21hcGljb25zXC9wb2lfYm91bmRhcnlfYWRtaW5pc3RyYXRpdmUucC4yMC5wbmciLCJhZGRyZXNzIjp7ImNvdW50eSI6IlNhbiBEaWVnbyBDb3VudHkiLCJzdGF0ZSI6IkNhbGlmb3JuaWEiLCJjb3VudHJ5IjoiVVNBIiwiY291bnRyeV9jb2RlIjoidXMifX1d
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:22 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:36 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/reverse?accept-language=en&addressdetails=1&format=json&lat=32.7174209&lon=-117.1627714
@@ -722,7 +722,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 29 Aug 2018 13:55:23 GMT
+      - Wed, 29 Aug 2018 13:55:36 GMT
       Server:
       - Apache/2.4.29 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -746,7 +746,7 @@ http_interactions:
       string: !binary |-
         eyJwbGFjZV9pZCI6IjExODYwMTU3OSIsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6XC9cL29zbS5vcmdcL2NvcHlyaWdodCIsIm9zbV90eXBlIjoid2F5Iiwib3NtX2lkIjoiMTg0NzA4MzQwIiwibGF0IjoiMzIuNzE3NDAyOSIsImxvbiI6Ii0xMTcuMTYyOTA4ODczNDMiLCJkaXNwbGF5X25hbWUiOiJKdWFuIFJvZHJpZ3VleiBDYWJyaWxsbydzIGRpc2NvdmVyeSBvZiBTYW4gRGllZ28gYmF5IGluIDE1NDIsIENpdmljIENlbnRlciBQbGF6YSwgVXB0b3duLCBTYW4gRGllZ28sIFNhbiBEaWVnbyBDb3VudHksIENhbGlmb3JuaWEsIDkyMTAxLTYxNDQsIFVTQSIsImFkZHJlc3MiOnsiYXJ0d29yayI6Ikp1YW4gUm9kcmlndWV6IENhYnJpbGxvJ3MgZGlzY292ZXJ5IG9mIFNhbiBEaWVnbyBiYXkgaW4gMTU0MiIsInBlZGVzdHJpYW4iOiJDaXZpYyBDZW50ZXIgUGxhemEiLCJzdWJ1cmIiOiJVcHRvd24iLCJjaXR5IjoiU2FuIERpZWdvIiwiY291bnR5IjoiU2FuIERpZWdvIENvdW50eSIsInN0YXRlIjoiQ2FsaWZvcm5pYSIsInBvc3Rjb2RlIjoiOTIxMDEtNjE0NCIsImNvdW50cnkiOiJVU0EiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9LCJib3VuZGluZ2JveCI6WyIzMi43MTczMzc5IiwiMzIuNzE3NDU3NiIsIi0xMTcuMTYyOTc5OSIsIi0xMTcuMTYyODM4NiJdfQ==
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:23 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:36 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=boston,%20ma
@@ -766,7 +766,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 29 Aug 2018 13:55:23 GMT
+      - Wed, 29 Aug 2018 13:55:37 GMT
       Server:
       - Apache/2.4.29 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -790,7 +790,7 @@ http_interactions:
       string: !binary |-
         W3sicGxhY2VfaWQiOiIxOTgzNjgzNjgiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6InJlbGF0aW9uIiwib3NtX2lkIjoiMjMxNTcwNCIsImJvdW5kaW5nYm94IjpbIjQyLjIyNzY1NCIsIjQyLjM5Njk3NzUiLCItNzEuMTkxMjYiLCItNzAuODA0NDg4MSJdLCJsYXQiOiI0Mi4zNjAyNTM0IiwibG9uIjoiLTcxLjA1ODI5MTIiLCJkaXNwbGF5X25hbWUiOiJCb3N0b24sIFN1ZmZvbGsgQ291bnR5LCBNYXNzYWNodXNldHRzLCBVU0EiLCJjbGFzcyI6InBsYWNlIiwidHlwZSI6ImNpdHkiLCJpbXBvcnRhbmNlIjowLjkzMDQ2NTYwMTY4MzE2MywiaWNvbiI6Imh0dHBzOlwvXC9ub21pbmF0aW0ub3BlbnN0cmVldG1hcC5vcmdcL2ltYWdlc1wvbWFwaWNvbnNcL3BvaV9wbGFjZV9jaXR5LnAuMjAucG5nIiwiYWRkcmVzcyI6eyJjaXR5IjoiQm9zdG9uIiwiY291bnR5IjoiU3VmZm9sayBDb3VudHkiLCJzdGF0ZSI6Ik1hc3NhY2h1c2V0dHMiLCJjb3VudHJ5IjoiVVNBIiwiY291bnRyeV9jb2RlIjoidXMifX0seyJwbGFjZV9pZCI6IjE4NTIwNzY4IiwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczpcL1wvb3NtLm9yZ1wvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJub2RlIiwib3NtX2lkIjoiMTc1MzIxMjQ2NCIsImJvdW5kaW5nYm94IjpbIjQxLjgyOTY1NDMiLCI0MS44Mjk3NTQzIiwiMTIuNDcxNjQ4MSIsIjEyLjQ3MTc0ODEiXSwibGF0IjoiNDEuODI5NzA0MyIsImxvbiI6IjEyLjQ3MTY5ODEiLCJkaXNwbGF5X25hbWUiOiJCb3N0b24sIFZpYWxlIEJvc3RvbiwgTXVuaWNpcGlvIFJvbWEgSVgsIFJvbWUsIFJNLCBMYXppbywgMDAxNDQsIEl0YWx5IiwiY2xhc3MiOiJoaWdod2F5IiwidHlwZSI6ImJ1c19zdG9wIiwiaW1wb3J0YW5jZSI6MC4yMDEsImljb24iOiJodHRwczpcL1wvbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnXC9pbWFnZXNcL21hcGljb25zXC90cmFuc3BvcnRfYnVzX3N0b3AyLnAuMjAucG5nIiwiYWRkcmVzcyI6eyJidXNfc3RvcCI6IkJvc3RvbiIsInJvYWQiOiJWaWFsZSBCb3N0b24iLCJzdWJ1cmIiOiJNdW5pY2lwaW8gUm9tYSBJWCIsImNpdHkiOiJSb21lIiwiY291bnR5IjoiUk0iLCJzdGF0ZSI6IkxhemlvIiwicG9zdGNvZGUiOiIwMDE0NCIsImNvdW50cnkiOiJJdGFseSIsImNvdW50cnlfY29kZSI6Iml0In19XQ==
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:24 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:37 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=boston,%20ma
@@ -810,7 +810,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 29 Aug 2018 13:55:24 GMT
+      - Wed, 29 Aug 2018 13:55:37 GMT
       Server:
       - Apache/2.4.29 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -834,7 +834,7 @@ http_interactions:
       string: !binary |-
         W3sicGxhY2VfaWQiOiIxOTgzNjgzNjgiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6InJlbGF0aW9uIiwib3NtX2lkIjoiMjMxNTcwNCIsImJvdW5kaW5nYm94IjpbIjQyLjIyNzY1NCIsIjQyLjM5Njk3NzUiLCItNzEuMTkxMjYiLCItNzAuODA0NDg4MSJdLCJsYXQiOiI0Mi4zNjAyNTM0IiwibG9uIjoiLTcxLjA1ODI5MTIiLCJkaXNwbGF5X25hbWUiOiJCb3N0b24sIFN1ZmZvbGsgQ291bnR5LCBNYXNzYWNodXNldHRzLCBVU0EiLCJjbGFzcyI6InBsYWNlIiwidHlwZSI6ImNpdHkiLCJpbXBvcnRhbmNlIjowLjkzMDQ2NTYwMTY4MzE2MywiaWNvbiI6Imh0dHBzOlwvXC9ub21pbmF0aW0ub3BlbnN0cmVldG1hcC5vcmdcL2ltYWdlc1wvbWFwaWNvbnNcL3BvaV9wbGFjZV9jaXR5LnAuMjAucG5nIiwiYWRkcmVzcyI6eyJjaXR5IjoiQm9zdG9uIiwiY291bnR5IjoiU3VmZm9sayBDb3VudHkiLCJzdGF0ZSI6Ik1hc3NhY2h1c2V0dHMiLCJjb3VudHJ5IjoiVVNBIiwiY291bnRyeV9jb2RlIjoidXMifX0seyJwbGFjZV9pZCI6IjE4NTIwNzY4IiwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczpcL1wvb3NtLm9yZ1wvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJub2RlIiwib3NtX2lkIjoiMTc1MzIxMjQ2NCIsImJvdW5kaW5nYm94IjpbIjQxLjgyOTY1NDMiLCI0MS44Mjk3NTQzIiwiMTIuNDcxNjQ4MSIsIjEyLjQ3MTc0ODEiXSwibGF0IjoiNDEuODI5NzA0MyIsImxvbiI6IjEyLjQ3MTY5ODEiLCJkaXNwbGF5X25hbWUiOiJCb3N0b24sIFZpYWxlIEJvc3RvbiwgTXVuaWNpcGlvIFJvbWEgSVgsIFJvbWUsIFJNLCBMYXppbywgMDAxNDQsIEl0YWx5IiwiY2xhc3MiOiJoaWdod2F5IiwidHlwZSI6ImJ1c19zdG9wIiwiaW1wb3J0YW5jZSI6MC4yMDEsImljb24iOiJodHRwczpcL1wvbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnXC9pbWFnZXNcL21hcGljb25zXC90cmFuc3BvcnRfYnVzX3N0b3AyLnAuMjAucG5nIiwiYWRkcmVzcyI6eyJidXNfc3RvcCI6IkJvc3RvbiIsInJvYWQiOiJWaWFsZSBCb3N0b24iLCJzdWJ1cmIiOiJNdW5pY2lwaW8gUm9tYSBJWCIsImNpdHkiOiJSb21lIiwiY291bnR5IjoiUk0iLCJzdGF0ZSI6IkxhemlvIiwicG9zdGNvZGUiOiIwMDE0NCIsImNvdW50cnkiOiJJdGFseSIsImNvdW50cnlfY29kZSI6Iml0In19XQ==
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:24 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:38 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/reverse?accept-language=en&addressdetails=1&format=json&lat=42.3602534&lon=-71.0582912
@@ -854,7 +854,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 29 Aug 2018 13:55:25 GMT
+      - Wed, 29 Aug 2018 13:55:38 GMT
       Server:
       - Apache/2.4.29 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -878,7 +878,7 @@ http_interactions:
       string: !binary |-
         eyJwbGFjZV9pZCI6IjE5ODM2NjM1NSIsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6XC9cL29zbS5vcmdcL2NvcHlyaWdodCIsIm9zbV90eXBlIjoicmVsYXRpb24iLCJvc21faWQiOiIxNzI2NTk0IiwibGF0IjoiNDIuMzYwNDAxIiwibG9uIjoiLTcxLjA1NzY4MTYyOTA1NTEiLCJkaXNwbGF5X25hbWUiOiJCb3N0b24gQ2l0eSBIYWxsLCAxLCBDb25ncmVzcyBTdHJlZXQsIERvY2sgU3F1YXJlLCBGaW5hbmNpYWwgRGlzdHJpY3QsIEJvc3RvbiwgU3VmZm9sayBDb3VudHksIE1hc3NhY2h1c2V0dHMsIDAyMjAxLCBVU0EiLCJhZGRyZXNzIjp7InRvd25oYWxsIjoiQm9zdG9uIENpdHkgSGFsbCIsImhvdXNlX251bWJlciI6IjEiLCJyb2FkIjoiQ29uZ3Jlc3MgU3RyZWV0IiwibmVpZ2hib3VyaG9vZCI6IkRvY2sgU3F1YXJlIiwic3VidXJiIjoiRmluYW5jaWFsIERpc3RyaWN0IiwiY2l0eSI6IkJvc3RvbiIsImNvdW50eSI6IlN1ZmZvbGsgQ291bnR5Iiwic3RhdGUiOiJNYXNzYWNodXNldHRzIiwicG9zdGNvZGUiOiIwMjIwMSIsImNvdW50cnkiOiJVU0EiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9LCJib3VuZGluZ2JveCI6WyI0Mi4zNTk4Mzc5IiwiNDIuMzYwODExNSIsIi03MS4wNTg1MTgzIiwiLTcxLjA1NzQwNTQiXX0=
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:25 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:38 GMT
 - request:
     method: get
     uri: http://api.wunderground.com/api/219e5c357c3ed2dd/conditions/q/42.3602534,-71.0582912.json
@@ -908,19 +908,19 @@ http_interactions:
       X-Creationtime:
       - '0.132'
       X-Varnish:
-      - 2577400059 2573132832
+      - 2576836049 2573132832
       Content-Type:
       - application/json; charset=UTF-8
       Vary:
       - Accept-Encoding
       Expires:
-      - Wed, 29 Aug 2018 13:55:25 GMT
+      - Wed, 29 Aug 2018 13:55:38 GMT
       Cache-Control:
       - max-age=0, no-cache
       Pragma:
       - no-cache
       Date:
-      - Wed, 29 Aug 2018 13:55:25 GMT
+      - Wed, 29 Aug 2018 13:55:38 GMT
       Content-Length:
       - '2522'
       Connection:
@@ -944,7 +944,7 @@ http_interactions:
         in ( 0 mm)\",\n\t\t\"precip_1hr_in\":\"0.00\",\n\t\t\"precip_1hr_metric\":\"
         0\",\n\t\t\"precip_today_string\":\"0.00 in (0 mm)\",\n\t\t\"precip_today_in\":\"0.00\",\n\t\t\"precip_today_metric\":\"0\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"forecast_url\":\"http://www.wunderground.com/US/MA/Boston.html\",\n\t\t\"history_url\":\"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KMABOSTO124\",\n\t\t\"ob_url\":\"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=42.365311,-71.051521\",\n\t\t\"nowcast\":\"\"\n\t}\n}\n"
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:25 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:38 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=boston,%20ma
@@ -964,7 +964,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 29 Aug 2018 13:55:25 GMT
+      - Wed, 29 Aug 2018 13:55:39 GMT
       Server:
       - Apache/2.4.29 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -988,7 +988,7 @@ http_interactions:
       string: !binary |-
         W3sicGxhY2VfaWQiOiIxOTgzNjgzNjgiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6InJlbGF0aW9uIiwib3NtX2lkIjoiMjMxNTcwNCIsImJvdW5kaW5nYm94IjpbIjQyLjIyNzY1NCIsIjQyLjM5Njk3NzUiLCItNzEuMTkxMjYiLCItNzAuODA0NDg4MSJdLCJsYXQiOiI0Mi4zNjAyNTM0IiwibG9uIjoiLTcxLjA1ODI5MTIiLCJkaXNwbGF5X25hbWUiOiJCb3N0b24sIFN1ZmZvbGsgQ291bnR5LCBNYXNzYWNodXNldHRzLCBVU0EiLCJjbGFzcyI6InBsYWNlIiwidHlwZSI6ImNpdHkiLCJpbXBvcnRhbmNlIjowLjkzMDQ2NTYwMTY4MzE2MywiaWNvbiI6Imh0dHBzOlwvXC9ub21pbmF0aW0ub3BlbnN0cmVldG1hcC5vcmdcL2ltYWdlc1wvbWFwaWNvbnNcL3BvaV9wbGFjZV9jaXR5LnAuMjAucG5nIiwiYWRkcmVzcyI6eyJjaXR5IjoiQm9zdG9uIiwiY291bnR5IjoiU3VmZm9sayBDb3VudHkiLCJzdGF0ZSI6Ik1hc3NhY2h1c2V0dHMiLCJjb3VudHJ5IjoiVVNBIiwiY291bnRyeV9jb2RlIjoidXMifX0seyJwbGFjZV9pZCI6IjE4NTIwNzY4IiwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczpcL1wvb3NtLm9yZ1wvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJub2RlIiwib3NtX2lkIjoiMTc1MzIxMjQ2NCIsImJvdW5kaW5nYm94IjpbIjQxLjgyOTY1NDMiLCI0MS44Mjk3NTQzIiwiMTIuNDcxNjQ4MSIsIjEyLjQ3MTc0ODEiXSwibGF0IjoiNDEuODI5NzA0MyIsImxvbiI6IjEyLjQ3MTY5ODEiLCJkaXNwbGF5X25hbWUiOiJCb3N0b24sIFZpYWxlIEJvc3RvbiwgTXVuaWNpcGlvIFJvbWEgSVgsIFJvbWUsIFJNLCBMYXppbywgMDAxNDQsIEl0YWx5IiwiY2xhc3MiOiJoaWdod2F5IiwidHlwZSI6ImJ1c19zdG9wIiwiaW1wb3J0YW5jZSI6MC4yMDEsImljb24iOiJodHRwczpcL1wvbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnXC9pbWFnZXNcL21hcGljb25zXC90cmFuc3BvcnRfYnVzX3N0b3AyLnAuMjAucG5nIiwiYWRkcmVzcyI6eyJidXNfc3RvcCI6IkJvc3RvbiIsInJvYWQiOiJWaWFsZSBCb3N0b24iLCJzdWJ1cmIiOiJNdW5pY2lwaW8gUm9tYSBJWCIsImNpdHkiOiJSb21lIiwiY291bnR5IjoiUk0iLCJzdGF0ZSI6IkxhemlvIiwicG9zdGNvZGUiOiIwMDE0NCIsImNvdW50cnkiOiJJdGFseSIsImNvdW50cnlfY29kZSI6Iml0In19XQ==
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:25 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:39 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/reverse?accept-language=en&addressdetails=1&format=json&lat=42.3602534&lon=-71.0582912
@@ -1008,7 +1008,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 29 Aug 2018 13:55:26 GMT
+      - Wed, 29 Aug 2018 13:55:39 GMT
       Server:
       - Apache/2.4.29 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -1032,7 +1032,7 @@ http_interactions:
       string: !binary |-
         eyJwbGFjZV9pZCI6IjE5ODM2NjM1NSIsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6XC9cL29zbS5vcmdcL2NvcHlyaWdodCIsIm9zbV90eXBlIjoicmVsYXRpb24iLCJvc21faWQiOiIxNzI2NTk0IiwibGF0IjoiNDIuMzYwNDAxIiwibG9uIjoiLTcxLjA1NzY4MTYyOTA1NTEiLCJkaXNwbGF5X25hbWUiOiJCb3N0b24gQ2l0eSBIYWxsLCAxLCBDb25ncmVzcyBTdHJlZXQsIERvY2sgU3F1YXJlLCBGaW5hbmNpYWwgRGlzdHJpY3QsIEJvc3RvbiwgU3VmZm9sayBDb3VudHksIE1hc3NhY2h1c2V0dHMsIDAyMjAxLCBVU0EiLCJhZGRyZXNzIjp7InRvd25oYWxsIjoiQm9zdG9uIENpdHkgSGFsbCIsImhvdXNlX251bWJlciI6IjEiLCJyb2FkIjoiQ29uZ3Jlc3MgU3RyZWV0IiwibmVpZ2hib3VyaG9vZCI6IkRvY2sgU3F1YXJlIiwic3VidXJiIjoiRmluYW5jaWFsIERpc3RyaWN0IiwiY2l0eSI6IkJvc3RvbiIsImNvdW50eSI6IlN1ZmZvbGsgQ291bnR5Iiwic3RhdGUiOiJNYXNzYWNodXNldHRzIiwicG9zdGNvZGUiOiIwMjIwMSIsImNvdW50cnkiOiJVU0EiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9LCJib3VuZGluZ2JveCI6WyI0Mi4zNTk4Mzc5IiwiNDIuMzYwODExNSIsIi03MS4wNTg1MTgzIiwiLTcxLjA1NzQwNTQiXX0=
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:26 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:39 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=boston,%20ma
@@ -1052,7 +1052,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 29 Aug 2018 13:55:26 GMT
+      - Wed, 29 Aug 2018 13:55:40 GMT
       Server:
       - Apache/2.4.29 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -1076,7 +1076,7 @@ http_interactions:
       string: !binary |-
         W3sicGxhY2VfaWQiOiIxOTgzNjgzNjgiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6InJlbGF0aW9uIiwib3NtX2lkIjoiMjMxNTcwNCIsImJvdW5kaW5nYm94IjpbIjQyLjIyNzY1NCIsIjQyLjM5Njk3NzUiLCItNzEuMTkxMjYiLCItNzAuODA0NDg4MSJdLCJsYXQiOiI0Mi4zNjAyNTM0IiwibG9uIjoiLTcxLjA1ODI5MTIiLCJkaXNwbGF5X25hbWUiOiJCb3N0b24sIFN1ZmZvbGsgQ291bnR5LCBNYXNzYWNodXNldHRzLCBVU0EiLCJjbGFzcyI6InBsYWNlIiwidHlwZSI6ImNpdHkiLCJpbXBvcnRhbmNlIjowLjkzMDQ2NTYwMTY4MzE2MywiaWNvbiI6Imh0dHBzOlwvXC9ub21pbmF0aW0ub3BlbnN0cmVldG1hcC5vcmdcL2ltYWdlc1wvbWFwaWNvbnNcL3BvaV9wbGFjZV9jaXR5LnAuMjAucG5nIiwiYWRkcmVzcyI6eyJjaXR5IjoiQm9zdG9uIiwiY291bnR5IjoiU3VmZm9sayBDb3VudHkiLCJzdGF0ZSI6Ik1hc3NhY2h1c2V0dHMiLCJjb3VudHJ5IjoiVVNBIiwiY291bnRyeV9jb2RlIjoidXMifX0seyJwbGFjZV9pZCI6IjE4NTIwNzY4IiwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczpcL1wvb3NtLm9yZ1wvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJub2RlIiwib3NtX2lkIjoiMTc1MzIxMjQ2NCIsImJvdW5kaW5nYm94IjpbIjQxLjgyOTY1NDMiLCI0MS44Mjk3NTQzIiwiMTIuNDcxNjQ4MSIsIjEyLjQ3MTc0ODEiXSwibGF0IjoiNDEuODI5NzA0MyIsImxvbiI6IjEyLjQ3MTY5ODEiLCJkaXNwbGF5X25hbWUiOiJCb3N0b24sIFZpYWxlIEJvc3RvbiwgTXVuaWNpcGlvIFJvbWEgSVgsIFJvbWUsIFJNLCBMYXppbywgMDAxNDQsIEl0YWx5IiwiY2xhc3MiOiJoaWdod2F5IiwidHlwZSI6ImJ1c19zdG9wIiwiaW1wb3J0YW5jZSI6MC4yMDEsImljb24iOiJodHRwczpcL1wvbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnXC9pbWFnZXNcL21hcGljb25zXC90cmFuc3BvcnRfYnVzX3N0b3AyLnAuMjAucG5nIiwiYWRkcmVzcyI6eyJidXNfc3RvcCI6IkJvc3RvbiIsInJvYWQiOiJWaWFsZSBCb3N0b24iLCJzdWJ1cmIiOiJNdW5pY2lwaW8gUm9tYSBJWCIsImNpdHkiOiJSb21lIiwiY291bnR5IjoiUk0iLCJzdGF0ZSI6IkxhemlvIiwicG9zdGNvZGUiOiIwMDE0NCIsImNvdW50cnkiOiJJdGFseSIsImNvdW50cnlfY29kZSI6Iml0In19XQ==
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:27 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:40 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/reverse?accept-language=en&addressdetails=1&format=json&lat=42.3602534&lon=-71.0582912
@@ -1096,7 +1096,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 29 Aug 2018 13:55:27 GMT
+      - Wed, 29 Aug 2018 13:55:40 GMT
       Server:
       - Apache/2.4.29 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -1120,5 +1120,93 @@ http_interactions:
       string: !binary |-
         eyJwbGFjZV9pZCI6IjE5ODM2NjM1NSIsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6XC9cL29zbS5vcmdcL2NvcHlyaWdodCIsIm9zbV90eXBlIjoicmVsYXRpb24iLCJvc21faWQiOiIxNzI2NTk0IiwibGF0IjoiNDIuMzYwNDAxIiwibG9uIjoiLTcxLjA1NzY4MTYyOTA1NTEiLCJkaXNwbGF5X25hbWUiOiJCb3N0b24gQ2l0eSBIYWxsLCAxLCBDb25ncmVzcyBTdHJlZXQsIERvY2sgU3F1YXJlLCBGaW5hbmNpYWwgRGlzdHJpY3QsIEJvc3RvbiwgU3VmZm9sayBDb3VudHksIE1hc3NhY2h1c2V0dHMsIDAyMjAxLCBVU0EiLCJhZGRyZXNzIjp7InRvd25oYWxsIjoiQm9zdG9uIENpdHkgSGFsbCIsImhvdXNlX251bWJlciI6IjEiLCJyb2FkIjoiQ29uZ3Jlc3MgU3RyZWV0IiwibmVpZ2hib3VyaG9vZCI6IkRvY2sgU3F1YXJlIiwic3VidXJiIjoiRmluYW5jaWFsIERpc3RyaWN0IiwiY2l0eSI6IkJvc3RvbiIsImNvdW50eSI6IlN1ZmZvbGsgQ291bnR5Iiwic3RhdGUiOiJNYXNzYWNodXNldHRzIiwicG9zdGNvZGUiOiIwMjIwMSIsImNvdW50cnkiOiJVU0EiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9LCJib3VuZGluZ2JveCI6WyI0Mi4zNTk4Mzc5IiwiNDIuMzYwODExNSIsIi03MS4wNTg1MTgzIiwiLTcxLjA1NzQwNTQiXX0=
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 13:55:27 GMT
+  recorded_at: Wed, 29 Aug 2018 13:55:41 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=boston,%20ma
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 29 Aug 2018 13:55:41 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sicGxhY2VfaWQiOiIxOTgzNjgzNjgiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6InJlbGF0aW9uIiwib3NtX2lkIjoiMjMxNTcwNCIsImJvdW5kaW5nYm94IjpbIjQyLjIyNzY1NCIsIjQyLjM5Njk3NzUiLCItNzEuMTkxMjYiLCItNzAuODA0NDg4MSJdLCJsYXQiOiI0Mi4zNjAyNTM0IiwibG9uIjoiLTcxLjA1ODI5MTIiLCJkaXNwbGF5X25hbWUiOiJCb3N0b24sIFN1ZmZvbGsgQ291bnR5LCBNYXNzYWNodXNldHRzLCBVU0EiLCJjbGFzcyI6InBsYWNlIiwidHlwZSI6ImNpdHkiLCJpbXBvcnRhbmNlIjowLjkzMDQ2NTYwMTY4MzE2MywiaWNvbiI6Imh0dHBzOlwvXC9ub21pbmF0aW0ub3BlbnN0cmVldG1hcC5vcmdcL2ltYWdlc1wvbWFwaWNvbnNcL3BvaV9wbGFjZV9jaXR5LnAuMjAucG5nIiwiYWRkcmVzcyI6eyJjaXR5IjoiQm9zdG9uIiwiY291bnR5IjoiU3VmZm9sayBDb3VudHkiLCJzdGF0ZSI6Ik1hc3NhY2h1c2V0dHMiLCJjb3VudHJ5IjoiVVNBIiwiY291bnRyeV9jb2RlIjoidXMifX0seyJwbGFjZV9pZCI6IjE4NTIwNzY4IiwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczpcL1wvb3NtLm9yZ1wvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJub2RlIiwib3NtX2lkIjoiMTc1MzIxMjQ2NCIsImJvdW5kaW5nYm94IjpbIjQxLjgyOTY1NDMiLCI0MS44Mjk3NTQzIiwiMTIuNDcxNjQ4MSIsIjEyLjQ3MTc0ODEiXSwibGF0IjoiNDEuODI5NzA0MyIsImxvbiI6IjEyLjQ3MTY5ODEiLCJkaXNwbGF5X25hbWUiOiJCb3N0b24sIFZpYWxlIEJvc3RvbiwgTXVuaWNpcGlvIFJvbWEgSVgsIFJvbWUsIFJNLCBMYXppbywgMDAxNDQsIEl0YWx5IiwiY2xhc3MiOiJoaWdod2F5IiwidHlwZSI6ImJ1c19zdG9wIiwiaW1wb3J0YW5jZSI6MC4yMDEsImljb24iOiJodHRwczpcL1wvbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnXC9pbWFnZXNcL21hcGljb25zXC90cmFuc3BvcnRfYnVzX3N0b3AyLnAuMjAucG5nIiwiYWRkcmVzcyI6eyJidXNfc3RvcCI6IkJvc3RvbiIsInJvYWQiOiJWaWFsZSBCb3N0b24iLCJzdWJ1cmIiOiJNdW5pY2lwaW8gUm9tYSBJWCIsImNpdHkiOiJSb21lIiwiY291bnR5IjoiUk0iLCJzdGF0ZSI6IkxhemlvIiwicG9zdGNvZGUiOiIwMDE0NCIsImNvdW50cnkiOiJJdGFseSIsImNvdW50cnlfY29kZSI6Iml0In19XQ==
+    http_version: 
+  recorded_at: Wed, 29 Aug 2018 13:55:41 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/reverse?accept-language=en&addressdetails=1&format=json&lat=42.3602534&lon=-71.0582912
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 29 Aug 2018 13:55:42 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJwbGFjZV9pZCI6IjE5ODM2NjM1NSIsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6XC9cL29zbS5vcmdcL2NvcHlyaWdodCIsIm9zbV90eXBlIjoicmVsYXRpb24iLCJvc21faWQiOiIxNzI2NTk0IiwibGF0IjoiNDIuMzYwNDAxIiwibG9uIjoiLTcxLjA1NzY4MTYyOTA1NTEiLCJkaXNwbGF5X25hbWUiOiJCb3N0b24gQ2l0eSBIYWxsLCAxLCBDb25ncmVzcyBTdHJlZXQsIERvY2sgU3F1YXJlLCBGaW5hbmNpYWwgRGlzdHJpY3QsIEJvc3RvbiwgU3VmZm9sayBDb3VudHksIE1hc3NhY2h1c2V0dHMsIDAyMjAxLCBVU0EiLCJhZGRyZXNzIjp7InRvd25oYWxsIjoiQm9zdG9uIENpdHkgSGFsbCIsImhvdXNlX251bWJlciI6IjEiLCJyb2FkIjoiQ29uZ3Jlc3MgU3RyZWV0IiwibmVpZ2hib3VyaG9vZCI6IkRvY2sgU3F1YXJlIiwic3VidXJiIjoiRmluYW5jaWFsIERpc3RyaWN0IiwiY2l0eSI6IkJvc3RvbiIsImNvdW50eSI6IlN1ZmZvbGsgQ291bnR5Iiwic3RhdGUiOiJNYXNzYWNodXNldHRzIiwicG9zdGNvZGUiOiIwMjIwMSIsImNvdW50cnkiOiJVU0EiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9LCJib3VuZGluZ2JveCI6WyI0Mi4zNTk4Mzc5IiwiNDIuMzYwODExNSIsIi03MS4wNTg1MTgzIiwiLTcxLjA1NzQwNTQiXX0=
+    http_version: 
+  recorded_at: Wed, 29 Aug 2018 13:55:42 GMT
 recorded_with: VCR 4.0.0
