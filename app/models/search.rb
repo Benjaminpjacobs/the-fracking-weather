@@ -12,7 +12,6 @@ class Search < ApplicationRecord
     end
   end
 
-
   def count
     previous.count
   end
