@@ -11,7 +11,7 @@ class SearchesController::CreateSearch
   
   def call
     validate_params or return self
-    set_results or return self
+    validate_results or return self
     set_current_search
     cache_weather_data
     increment_count
@@ -41,8 +41,9 @@ class SearchesController::CreateSearch
     @current_search      ||= Search.create(query_params) 
   end
 
-  def set_results
+  def validate_results
     @results = Geocoder.search(query_params[:query])
+
     unless @results.any?
       @error = "Fracking Try Again!"
       return false

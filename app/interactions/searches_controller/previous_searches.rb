@@ -1,5 +1,6 @@
 class SearchesController::PreviousSearches
   attr_reader :params
+  
   def self.call(params)
     new(params).call
   end
