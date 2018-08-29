@@ -15,8 +15,7 @@ To run locally.
 * `bundle install`
 * `rails db:setup`
 * `touch .env`
-* enter API key into `.env` file from above step into .env with key `WEATHER_API_KEY`
-* don't forget to git ignore the .env file
+* enter API key into `.env` file from above step into with the key `WEATHER_API_KEY`
 * `rails server`
 
 And now you can see the fracking weather LOCALLY!
