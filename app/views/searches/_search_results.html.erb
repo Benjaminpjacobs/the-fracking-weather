@@ -2,21 +2,26 @@
   <h2>
     <%= @search_presenter.temp %>&deg F
   </h2>
+  
   <h4>
-  It's Fracking
+    It's Fracking
     <%= @search_presenter.conditions %> in
     <%= @search_presenter.location_name %>
   </h4>
+  
   <% if @search_presenter.previous.length > 1 %>
     <div class='previous'>
-        <h5>This location was previously fracking searched at:</h5>
-        <div class='times'>
-          <%@search_presenter.sorted_times.each do |time|%>
-            <p><%= time %></p>
-          <% end %>
-        </div>
+      <h5>This location was previously fracking searched at:</h5>
+      <div class='times'>
+        <% @search_presenter.sorted_times.each do |time| %>
+          <p><%= time %></p>
+        <% end %>
+      </div>
     </div>
   <%end%>
+  
 <%else%>
-<h2><%=@error%></h2>
+
+  <h2><%=@error%></h2>
+
 <%end%>

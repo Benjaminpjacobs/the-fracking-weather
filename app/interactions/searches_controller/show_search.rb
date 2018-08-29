@@ -1,5 +1,6 @@
 class SearchesController::ShowSearch
   attr_reader :error, :search_presenter
+  
   def self.call(id)
     new(id).call
   end
