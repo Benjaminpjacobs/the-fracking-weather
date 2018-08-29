@@ -15,13 +15,12 @@ class SearchesController < ApplicationController
   end
 
   def show
-    @current_search = Search.find(params[:id])
-    if @current_search.cached_weather.blank? || (Time.now - @current_search.updated_at) > 21600
-      @weather = WeatherService.get_weather_for(@current_search)
-      @current_search.update(cached_weather: @weather)
+    show = ShowSearch.call(params[:id])
+    if show.error.present?
+      @error = show.error
+    else
+      @search_presenter = show.search_presenter
     end
-    @current_search.increment_count
-    @search_presenter = SearchPresenter.new(@current_search)
     render "index"
   end
 
@@ -40,16 +39,6 @@ class SearchesController < ApplicationController
   end
 
   def set_previous_searches
-    order     = params[:sort_by].present? ? params[:sort_by].to_sym : :query
-    direction = params[:sort_direction].present? ? params[:sort_direction].to_sym : :asc
-      
-    @previous_searches = case order
-    when :query
-      Search.limit(50).order(query: direction)
-    when :updated_at
-      Search.limit(50).order(updated_at: direction)
-    when :count
-      Search.limit(50).select('searches.*, array_length(previous,1) as count').group('searches.id, count').order("count #{direction.to_s}")
-    end
+    @previous_searches = PreviousSearches.call(params)
   end
 end
