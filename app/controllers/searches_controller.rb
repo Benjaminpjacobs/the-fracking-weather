@@ -2,25 +2,14 @@ class SearchesController < ApplicationController
   before_action :set_new_search 
   before_action :set_previous_searches
 
-  def index
-  end
+  def index; end
 
   def create
-    validate_params or return
-    results                  = Geocoder.search(query_params[:query])
-    if results.any?
-      coordinates            = results.first.coordinates
-      @current_search        = Search.find_by(query_params)
-      @current_search      ||= Search.near(coordinates, 5).first
-      @current_search      ||= Search.create(query_params) 
-      if @current_search.cached_weather.blank? || (Time.now - @current_search.updated_at) > 21600
-        @weather = WeatherService.get_weather_for(@current_search)
-        @current_search.update(cached_weather: @weather)
-      end
-      @current_search.increment_count
-      @search_presenter = SearchPresenter.new(@current_search)
+    creator = CreateSearch.call(query_params)
+    if creator.error.present?
+      @error = creator.error
     else
-      @error = "Fracking Try Again!"
+      @search_presenter = creator.search_presenter
     end
     render "index"
   end
@@ -44,14 +33,6 @@ class SearchesController < ApplicationController
 
   def query_params
     params.require(:search).permit(:query)
-  end
-
-  def validate_params
-    unless query_params[:query].present?
-      @error = "You Gotta Fracking Ask Me Something!"
-      render "index" and return
-    end
-    return true
   end
 
   def set_new_search
