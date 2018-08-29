@@ -14,7 +14,7 @@ class SearchesController < ApplicationController
       @current_search      ||= Search.near(coordinates, 5).first
       @current_search      ||= Search.create(query_params) 
       if @current_search.cached_weather.blank? || (Time.now - @current_search.updated_at) > 21600
-        @weather = HTTParty.get("http://api.wunderground.com/api/#{ENV['WEATHER_API_KEY']}/conditions/q/#{@current_search.to_coordinates.join(',')}.json").with_indifferent_access
+        @weather = WeatherService.get_weather_for(@current_search)
         @current_search.update(cached_weather: @weather)
       end
       @current_search.increment_count
@@ -27,7 +27,7 @@ class SearchesController < ApplicationController
   def show
     @current_search = Search.find(params[:id])
     if @current_search.cached_weather.blank? || (Time.now - @current_search.updated_at) > 21600
-      @weather = HTTParty.get("http://api.wunderground.com/api/#{ENV['WEATHER_API_KEY']}/conditions/q/#{@current_search.to_coordinates.join(',')}.json").with_indifferent_access
+      @weather = WeatherService.get_weather_for(@current_search)
       @current_search.update(cached_weather: @weather)
     end
     @current_search.increment_count
