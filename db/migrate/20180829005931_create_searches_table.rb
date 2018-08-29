@@ -10,6 +10,8 @@ class CreateSearchesTable < ActiveRecord::Migration[5.2]
       t.string :state
       t.string :country
       t.string :zipcode
+
+      t.timestamps
     end
   end
 end

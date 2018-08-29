@@ -1,0 +1,23 @@
+<% if @current_search %>
+  <h2>
+    <%= @current_search.cached_weather['current_observation']['temp_f'] %>&deg F
+  </h2>
+  <h4>
+  It's Fracking
+    <%= @current_search.cached_weather['current_observation']['weather'] %> in
+    <%= @current_search.cached_weather['current_observation']['display_location']['full'] %>
+  </h4>
+  <% if @current_search.previous.length > 1 %>
+    <div class='previous'>
+        <h5>This location was previously fracking searched at:</h5>
+        <div class='times'>
+          <%@current_search.previous[1..-1].each do |time|%>
+            <p><%=Time.parse(time).strftime("I:%M %p")%> on
+            <%=Time.parse(time).strftime("%m/%d/%y")%></p>
+          <%end%>
+        </div>
+    </div>
+  <%end%>
+<%else%>
+<h2><%=@error%></h2>
+<%end%>

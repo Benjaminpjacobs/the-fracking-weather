@@ -25,6 +25,8 @@ ActiveRecord::Schema.define(version: 2018_08_29_005931) do
     t.string "state"
     t.string "country"
     t.string "zipcode"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end

@@ -42,12 +42,36 @@ RSpec.describe SearchesController do
         expect(Search.first).to eq(s)
       end
     end
-    
+
     it "doesn't create a search if it cannot geocode" do
       VCR.use_cassette("geocode_fail") do
         expect(Search.count).to eq(0)
         post :create, params: {search: {query: "--"}}
         expect(Search.count).to eq(0)
+      end
+    end
+
+    it "retreives weather from search if not cached" do
+      VCR.use_cassette("weather") do
+        post :create, params: {search: {query: "Denver"}}
+        search = Search.last
+        expect(response.body).to match(search.cached_weather['current_observation']['temp_f'].to_s)
+        expect(response.body).to match(search.cached_weather['current_observation']['weather'])
+        expect(response.body).to match(search.cached_weather['current_observation']['display_location']['full'])
+      end
+    end
+    
+    it "retreives weather from cache if cached weather" do
+      VCR.use_cassette("geocode_repeat") do
+        s = Search.create(query: 'Denver')
+        s.update(cached_weather: {current_observation: {temp_f: 100.0, weather: "Sunny", display_location: {full: "Somewhere"}}})
+
+        post :create, params: {search: {query: "Denver"}}
+        search = Search.last
+        expect(HTTParty).to_not receive(:get)
+        expect(response.body).to match(search.cached_weather['current_observation']['temp_f'].to_s)
+        expect(response.body).to match(search.cached_weather['current_observation']['weather'])
+        expect(response.body).to match(search.cached_weather['current_observation']['display_location']['full'])
       end
     end
   end
