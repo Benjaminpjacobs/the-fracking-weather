@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 29 Aug 2018 02:26:14 GMT
+      - Wed, 29 Aug 2018 03:11:58 GMT
       Server:
       - Apache/2.4.29 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -42,5 +42,5 @@ http_interactions:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Wed, 29 Aug 2018 02:26:14 GMT
+  recorded_at: Wed, 29 Aug 2018 03:11:58 GMT
 recorded_with: VCR 4.0.0

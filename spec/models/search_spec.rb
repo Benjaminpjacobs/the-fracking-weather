@@ -27,4 +27,13 @@ RSpec.describe Search, type: :model do
       expect(s.previous.first).to match(t.to_s)
     end
   end
+
+  it "increments it's count" do
+    VCR.use_cassette('gecoding') do
+      s = Search.create!(query: "Denver, CO")
+      expect(s.count).to eq(0)
+      s.increment_count
+      expect(s.count).to eq(1)
+    end
+  end
 end

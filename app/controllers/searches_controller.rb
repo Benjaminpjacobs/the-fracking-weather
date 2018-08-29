@@ -1,5 +1,7 @@
 class SearchesController < ApplicationController
   before_action :set_new_search, only: [:index, :create]
+  before_action :set_previous_searches, only: [:index, :create]
+
   def index
   end
 
@@ -12,9 +14,10 @@ class SearchesController < ApplicationController
       @current_search      ||= Search.near(coordinates, 5).first
       @current_search      ||= Search.create(query_params) 
       if @current_search.cached_weather.blank? || (Time.now - @current_search.updated_at) > 21600
-        @weather = HTTParty.get("http://api.wunderground.com/api/219e5c357c3ed2dd/conditions/q/#{@current_search.to_coordinates.join(',')}.json").with_indifferent_access
+        @weather = HTTParty.get("http://api.wunderground.com/api/#{ENV['WEATHER_API_KEY']}/conditions/q/#{@current_search.to_coordinates.join(',')}.json").with_indifferent_access
         @current_search.update(cached_weather: @weather)
       end
+      @current_search.increment_count
     else
       @error = "Fracking Try Again!"
     end
@@ -37,5 +40,9 @@ class SearchesController < ApplicationController
 
   def set_new_search
     @new_search = Search.new
+  end
+
+  def set_previous_searches
+    @previous_searches = Search.order(query: :asc)
   end
 end

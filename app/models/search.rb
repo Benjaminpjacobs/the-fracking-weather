@@ -15,4 +15,9 @@ class Search < ApplicationRecord
   def count
     previous.count
   end
+
+  def increment_count
+    self.previous << self.updated_at.to_s
+    self.save
+  end
 end

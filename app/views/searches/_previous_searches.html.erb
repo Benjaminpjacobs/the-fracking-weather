@@ -1,0 +1,26 @@
+<div class='search-table'>
+  <div class='search-row heading'>
+    <div class='search-cell' id='query'>
+      Query
+    </div>
+    <div class='search-cell' id='updated_at'>
+      Time
+    </div>
+    <div class='search-cell' id='count'>
+      Count
+    </div>
+  </div>
+  <% @previous_searches.each do |search| %>
+    <div class='search-row' id="<%=dom_id(search)%>">
+      <div class='search-cell' id="<%=dom_id(search, :link)%>">
+        <%= link_to search.query, searches_path(search) %>
+      </div>
+      <div class='search-cell' id="<%=dom_id(search, :date)%>">
+        <%= search.updated_at.strftime("%m/%d/%y %I:%M %p") %>
+      </div>
+      <div class='search-cell' id="<%=dom_id(search, :count)%>"">
+        <%= search.previous.length %>
+      </div>
+    </div>
+  <%end%>
+</div>

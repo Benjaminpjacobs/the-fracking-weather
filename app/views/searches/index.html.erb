@@ -1,6 +1,4 @@
 <h1>The Fracking Weather<h1>
-<%= form_for @new_search do |f| %>
-  <%= f.text_field :query, placeholder: "ENTER CITY, STATE or ZIP" %>
-  <%= f.submit "Search"%>
-<% end %>
+<%= render partial: "search_form" %>
 <%= render partial: "search_results" %>
+<%= render partial: "previous_searches" %>
