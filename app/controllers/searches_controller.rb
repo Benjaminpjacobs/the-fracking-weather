@@ -18,6 +18,7 @@ class SearchesController < ApplicationController
         @current_search.update(cached_weather: @weather)
       end
       @current_search.increment_count
+      @search_presenter = SearchPresenter.new(@current_search)
     else
       @error = "Fracking Try Again!"
     end
@@ -31,6 +32,7 @@ class SearchesController < ApplicationController
       @current_search.update(cached_weather: @weather)
     end
     @current_search.increment_count
+    @search_presenter = SearchPresenter.new(@current_search)
     render "index"
   end
 
