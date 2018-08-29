@@ -1,0 +1,26 @@
+.result {
+    text-align: center;
+    padding: 20px;
+    margin: 10px 10px 0px 0px;
+    color: white;
+    h2 {
+        font-size: 8em;
+        margin-bottom: 5px;
+    }
+    h4 {
+        margin-top: 5px;
+        font-size: 5em;
+    }
+}
+
+.previous {
+    margin: 50px 0px 10px 0;
+    font-size: 1.5em;
+    .times {
+        border-radius: 5px;
+    }
+    h5 {
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+}

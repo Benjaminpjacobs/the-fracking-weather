@@ -1,4 +1,16 @@
-<h1>The Fracking Weather<h1>
-<%= render partial: "search_form" %>
-<%= render partial: "search_results" %>
-<%= render partial: "previous_searches" %>
+<div class='search'>
+  <heading>
+    <h1>The Fracking Weather</h1>
+  </heading>
+  <div class='weather-form'>
+    <%= render partial: 'search_form'%>
+  </div>
+  <section class='main-content'>
+    <div class='previous-searches' id='previous-searches'>
+      <%= render partial: 'previous_searches' %>
+    </div>
+    <div class='result' >
+      <%= render partial: 'search_results'%>
+    </div>
+  </section>
+</div>
