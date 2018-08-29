@@ -11,6 +11,65 @@ RSpec.describe SearchesController do
     end
   end
 
+  describe "GET previous_searches" do
+    it "retrieves previous searches partial sorted" do
+      VCR.use_cassette("previous_searches") do
+        one_hour_ago = 1.hour.ago
+        two_hours_ago = 2.hour.ago
+        three_hours_ago = 2.hour.ago
+        post :create, params: {search: {query: "Denver, CO"}}
+        s1 = Search.find_by(query: "Denver, CO")
+        s1.update_columns previous: [one_hour_ago.to_s,two_hours_ago.to_s]
+        post :create, params: {search: {query: "San Diego, CA"}}
+        s2 = Search.find_by(query: "San Diego, CA")
+        s2.update_columns previous: [one_hour_ago.to_s, two_hours_ago.to_s, three_hours_ago.to_s]
+        post :create, params: {search: {query: "Boston, MA"}}
+        s3 = Search.find_by(query: "Boston, MA")
+        s3.update_columns previous: [one_hour_ago.to_s]
+        get :previous_searches, params: {sort_by: "count", sort_direction: "desc"}
+        
+        assert_select "#searches" do
+          assert_select "div:nth-child(1)" do
+            assert_select "#link_search_#{s2.id}", "San Diego, CA"
+          end
+          assert_select "div:nth-child(2)" do
+            assert_select "#link_search_#{s1.id}", "Denver, CO"
+          end
+          assert_select "div:nth-child(3)" do
+            assert_select "#link_search_#{s3.id}", "Boston, MA"
+          end
+        end
+
+        get :previous_searches, params: {sort_by: "count", sort_direction: "asc"}
+        assert_select "#searches" do
+          assert_select "div:nth-child(1)" do
+            assert_select "#link_search_#{s3.id}", "Boston, MA"
+          end
+          assert_select "div:nth-child(2)" do
+            assert_select "#link_search_#{s1.id}", "Denver, CO"
+          end
+          assert_select "div:nth-child(3)" do
+            assert_select "#link_search_#{s2.id}", "San Diego, CA"
+          end
+        end
+        
+        get :previous_searches, params: {sort_by: "query", sort_direction: "desc"}
+
+        assert_select "#searches" do
+          assert_select "div:nth-child(1)" do
+            assert_select "#link_search_#{s2.id}", "San Diego, CA"
+          end
+          assert_select "div:nth-child(2)" do
+            assert_select "#link_search_#{s1.id}", "Denver, CO"
+          end
+          assert_select "div:nth-child(3)" do
+            assert_select "#link_search_#{s3.id}", "Boston, MA"
+          end
+        end
+      end
+    end
+  end
+  
   describe "GET show" do
     it "renders the show view as if searched" do
       VCR.use_cassette("previous_searches") do
