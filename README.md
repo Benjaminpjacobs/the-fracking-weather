@@ -1,24 +1,46 @@
-# README
+# The Fracking Weather
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A copy of a glorious app and in homage to a glorious television saga. This app will tell you the fracking weather.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+Make sure to have Rails 5.2.1 and Ruby 2.4.1 installed.
 
-* System dependencies
+### Running Locally
 
-* Configuration
+To run locally. 
 
-* Database creation
+* attempt to get an API Key from [WeatherUnderground](https://www.wunderground.com/)
+* clone down the repo
+* `bundle install`
+* `rails db:setup`
+* `touch .env`
+* enter API key into `.env` file from above step into with the key `WEATHER_API_KEY`
+* `rails server`
 
-* Database initialization
+And now you can see the fracking weather LOCALLY!
 
-* How to run the test suite
+## Running the tests
 
-* Services (job queues, cache servers, search engines, etc.)
+* `rake db:test:prepare` just in case
+* `rspec`
 
-* Deployment instructions
+## Deployment
 
-* ...
+This app is live. You can find out the fracking weather [RIGHT HERE](http://the-fracking-weather.herokuapp.com/)!
+
+## Built With
+
+* [Rails](https://api.rubyonrails.org/) - The web framework used
+* [Geocoder](https://github.com/alexreisner/geocoder) - Used to geocode searches
+* [WeatherUnderground](https://www.wunderground.com/) - Used for weather feeds
+* [The Fucking Weather](http://thefuckingweather.com/) - Used for inspiration
+* [Battlestar Galactica](https://en.wikipedia.org/wiki/Battlestar_Galactica_(2004_TV_series)) - Used for more inspiration
+
+## Authors
+
+* **Ben Jacobs** - *Initial work* - [Benjaminpjacobs](https://github.com/Benjaminpjacobs)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
