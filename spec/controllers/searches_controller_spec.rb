@@ -48,7 +48,13 @@ RSpec.describe SearchesController do
         expect(Search.count).to eq(0)
         post :create, params: {search: {query: "--"}}
         expect(Search.count).to eq(0)
+        expect(response.body).to match("Fracking Try Again!")
       end
+    end
+
+    it "responds with error if no query" do
+      post :create, params: {search: {query: ""}}
+      expect(response.body).to match("You Gotta Fracking Ask Me Something!")
     end
 
     it "retreives weather from search if not cached" do

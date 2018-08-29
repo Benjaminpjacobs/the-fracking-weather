@@ -1,9 +1,10 @@
 class SearchesController < ApplicationController
+  before_action :set_new_search, only: [:index, :create]
   def index
-    @new_search = Search.new
   end
 
   def create
+    validate_params or return
     results                  = Geocoder.search(query_params[:query])
     if results.any?
       coordinates            = results.first.coordinates
@@ -14,14 +15,27 @@ class SearchesController < ApplicationController
         @weather = HTTParty.get("http://api.wunderground.com/api/219e5c357c3ed2dd/conditions/q/#{@current_search.to_coordinates.join(',')}.json").with_indifferent_access
         @current_search.update(cached_weather: @weather)
       end
-      @new_search = Search.new
-      render "index"
+    else
+      @error = "Fracking Try Again!"
     end
+    render "index"
   end
 
   private
 
   def query_params
     params.require(:search).permit(:query)
+  end
+
+  def validate_params
+    unless query_params[:query].present?
+      @error = "You Gotta Fracking Ask Me Something!"
+      render "index" and return
+    end
+    return true
+  end
+
+  def set_new_search
+    @new_search = Search.new
   end
 end
