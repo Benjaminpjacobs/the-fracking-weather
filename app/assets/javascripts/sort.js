@@ -1,8 +1,12 @@
 $(document).ready(function() {
     var sortParam = getSortParam();
     var sortDir = getSortDirection();
-    $previousSearches = $("#previous-searches")
-    modifyLinks(sortParam, sortDir)
+    $previousSearches = $("#previous-searches");
+    modifyLinks(sortParam, sortDir);
+    setListeners();
+});
+
+var setListeners = function() {
     $("#previous-searches").on("click", "#query", function(e) {
         sortElements(e);
     });
@@ -12,10 +16,10 @@ $(document).ready(function() {
     $("#previous-searches").on("click", "#updated_at", function(e) {
         sortElements(e);
     });
-});
+};
 
 var sortElements = function(event) {
-    var sortParam = event.target.id
+    var sortParam = event.target.id;
     var sortDir = getSortDirection();
     var sortDir = sortDir === 'asc' ? 'desc' : 'asc';
     $.ajax({
@@ -23,19 +27,18 @@ var sortElements = function(event) {
         type: 'GET',
         success: function(res) {
             $previousSearches.html(res);
-            var newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname
-            newUrl = newUrl.split('?')[0]
-            newUrl += "?sort_by=" + sortParam + "&sort_direction=" + sortDir;
-            window.history.pushState({ path: newUrl }, '', newUrl);
-            $('.search-cell a').each(function(a) {
-                var url = $(this).attr('href');
-                url = url.split('?')[0]
-                url += "?sort_by=" + sortParam + "&sort_direction=" + sortDir;
-                $(this).attr('href', url);
-            });
+            setSearchParams(sortParam, sortDir);
+            modifyLinks(sortParam, sortDir);
         }
     });
-}
+};
+
+var setSearchParams = function(sortParam, sortDir) {
+    var newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname;
+    newUrl = newUrl.split('?')[0];
+    newUrl += "?sort_by=" + sortParam + "&sort_direction=" + sortDir;
+    window.history.pushState({ path: newUrl }, '', newUrl);
+};
 
 var getSortDirection = function() {
     var search = window.location.search.slice(1);
@@ -45,7 +48,7 @@ var getSortDirection = function() {
     } else {
         return "asc";
     }
-}
+};
 
 var getSortParam = function() {
     var search = window.location.search.slice(1);
@@ -55,14 +58,15 @@ var getSortParam = function() {
     } else {
         return "query";
     }
-}
+};
+
 var modifyLinks = function(sortParam, sortDir) {
     if (sortParam && sortDir) {
         $('.search-cell a').each(function(a) {
             var url = $(this).attr('href');
-            url = url.split('?')[0]
+            url = url.split('?')[0];
             url += "?sort_by=" + sortParam + "&sort_direction=" + sortDir;
             $(this).attr('href', url);
         });
     }
-}
+};
